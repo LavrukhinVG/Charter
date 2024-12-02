@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="883a7841-6852-4b19-8424-3ed6cd984c40" extendedConfigurationObject="ff307d48-5898-4b42-9da7-db7caa9255b4">
+  <producedTypes>
+    <objectType typeId="90a702d9-eba2-45c9-a115-09dc06efae96" valueTypeId="42f0daad-b73e-49ae-afbc-c11730fa51b3"/>
+    <refType typeId="c2f24d37-229d-4183-b794-50f3e9d09503" valueTypeId="5366457e-a4eb-4502-b7db-c894483b1d1f"/>
+    <selectionType typeId="a7aa49bb-283c-47e9-9e7f-e29791cb304b" valueTypeId="9f3f7830-c25e-40e6-bff5-2fb47868c9ea"/>
+    <listType typeId="c9c8d2e4-871a-4e16-b3a0-de5f746025b9" valueTypeId="c11071b8-2d64-4b65-bbbf-9e4c2af190c3"/>
+    <managerType typeId="0c78e44d-803e-461e-b2f5-85d6ad6b49c1" valueTypeId="1cd92e35-b302-43db-8dbb-9b07c15aa677"/>
+  </producedTypes>
+  <name>ClientDataScans</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="133dc416-1272-457d-b4a0-0a31c395214f" extendedConfigurationObject="97314179-aaed-4cf8-bb99-39d9942a809d">
+    <name>tcDocumentForm</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

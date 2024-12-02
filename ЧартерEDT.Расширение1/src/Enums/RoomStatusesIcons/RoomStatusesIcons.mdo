@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86389c7d-7364-4263-9812-95a247fe0ea4" extendedConfigurationObject="25593b99-45ba-459d-8a0a-b285448c6bcf">
+  <producedTypes>
+    <refType typeId="9c4de20c-7241-4df9-b792-bf06a28ade55" valueTypeId="3fb79954-90fb-4c05-b1ac-d16a65b5f95a"/>
+    <listType typeId="e6ec0264-f652-4328-83b5-38d4c443f6d1" valueTypeId="71609648-3cfa-44c4-9855-c3bfa4166931"/>
+    <managerType typeId="5a2419cf-590d-4b02-8dc7-efcd47f574aa" valueTypeId="6cfdd147-442a-4307-8cec-38b06cebe593"/>
+  </producedTypes>
+  <name>RoomStatusesIcons</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="354ed978-37ac-427d-a64d-116417e9620e" extendedConfigurationObject="93855d50-4d0f-459b-811c-7dbfbdf3d036">
+    <name>Waiting</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d46e9924-f9a4-4855-b9a2-00d2f899a6d0" extendedConfigurationObject="8bd15f28-785b-458b-bc0d-8ca64d84f414">
+    <name>Repair</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="4bdb0103-f14b-43db-8f77-795ea725b18c" extendedConfigurationObject="81470d0f-4056-4c0b-8d17-3cbc49b30c58">
+    <name>Malfunction</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="51bc1032-ffaa-440b-8901-80fe96cdc494" extendedConfigurationObject="88046973-1523-4d30-afcb-b2412a46585f">
+    <name>Reserved</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a228963f-0bdd-4dd0-906b-e95dfcf5774e" extendedConfigurationObject="8c6d63cb-eded-4d35-b7e7-ddd393e3515b">
+    <name>TidyingUp</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="e27ab466-d5f8-4fe5-8806-6eb3d1bfcad1" extendedConfigurationObject="9f823be4-3321-48b4-a5b2-0ddda42d88d2">
+    <name>OccupiedDirty</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8e55f0c7-4c8d-4f1d-9ebf-e751ae3e2e50" extendedConfigurationObject="15af22a4-d77a-4c24-bc29-08afe70ed94f">
+    <name>None</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0193031f-545b-4649-b462-496d83fd0bf0" extendedConfigurationObject="a280d9d6-0c9e-43d5-b813-5886da089315">
+    <name>Occupied</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="bd38d4ee-9dc8-45e5-801c-000050bb9bc5" extendedConfigurationObject="7462242e-5a7a-4105-95b9-6528b59cd967">
+    <name>Luggage</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3c157933-591e-43f6-b7c4-49a4ed570e91" extendedConfigurationObject="2aa23d5f-9408-4c97-aa95-2e7bf0fcd895">
+    <name>CheckOut</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="db55f6d6-1b2e-4b9f-a5bb-3c28a89fc95a" extendedConfigurationObject="681de59e-3281-4c81-8d3d-98750b4cb707">
+    <name>Vacant</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="373be980-196b-4397-9756-fbcdfb7d487c" extendedConfigurationObject="042f4eb6-8f48-4d5f-bc3f-3beb857785cf">
+  <producedTypes>
+    <objectType typeId="ce76ecde-62d7-4134-8c68-ba2acf43524a" valueTypeId="a1c0c8bd-f6b3-423a-b2be-5f4b05013412"/>
+    <refType typeId="3f158217-1bf3-42b1-a031-794a83af6f23" valueTypeId="eb7dcfb3-7ea2-4e3f-b2f3-6a472e35886c"/>
+    <selectionType typeId="29e40e04-a30f-4418-b0cb-0442a690c2ac" valueTypeId="80faa498-f744-4de0-88ef-a8c94f61f34b"/>
+    <listType typeId="a5b01db6-8ad4-43d9-ae8f-7bd890f325be" valueTypeId="3abbe9c9-b575-4f0e-85e5-b1d7b4c1eccb"/>
+    <managerType typeId="09a25170-6f60-4be9-8af4-e43435650c32" valueTypeId="64659ee8-cad7-4dd5-99cf-2696f83bc5f7"/>
+  </producedTypes>
+  <name>GuaranteeTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>5</codeLength>
+  <codeType>String</codeType>
+</mdclass:Catalog>

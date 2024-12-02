@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c045ca02-96b9-4600-b878-235f38f1926a">
+  <name>АСЭ</name>
+  <synonym>
+    <key>en</key>
+    <value>АСЭ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расш1_ОбщаяКартинка3</picture>
+  </picture>
+  <content>Catalog.Расш1_НомерныеФонды</content>
+  <content>InformationRegister.Расш1_СоставНомерногоФонда</content>
+  <content>InformationRegister.Расш1_СтатусыПЦРТестов</content>
+  <content>DataProcessor.ЗагрузкаДанных</content>
+  <content>CommonCommand.ВсеНомера</content>
+  <content>DataProcessor.ЗагрузкаДанныхБезЗаселения</content>
+  <content>DataProcessor.ЗагрузкаДанныхБезЗаселения4Комната</content>
+  <content>DataProcessor.ИзменениеНаименованияНомеров</content>
+  <content>InformationRegister.СостоянияСотрудников</content>
+  <content>Catalog.ВнешниеСистемыОбмена</content>
+  <content>Catalog.ВидыОбменов</content>
+  <content>InformationRegister.ИдентификаторыОбъектовВоВнешнихСистемах</content>
+  <content>InformationRegister.ИсторияОбменовСВнешнимиСистемами</content>
+  <content>Report.СправкаБКАЭ</content>
+  <content>Report.ДублирующиеЗаселения</content>
+  <content>DataProcessor.ПоискИЗаменаЗначений_Субподрядчики</content>
+  <content>Report.СписокПроживающих</content>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>Report.СправкаБКАЭ_ПоПодрядчику</content>
+</mdclass:Subsystem>

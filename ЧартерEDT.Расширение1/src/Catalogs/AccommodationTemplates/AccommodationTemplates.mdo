@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef0ebef4-f719-4381-9ff1-3b2fbb62a8a6" extendedConfigurationObject="d3df30eb-72cd-44f1-81fe-0a1aaaa3982e">
+  <producedTypes>
+    <objectType typeId="7c35b16b-5610-4b71-82cd-1b7f53cfb6bb" valueTypeId="4987440d-21c7-4e43-9008-dbebf02157f0"/>
+    <refType typeId="7e8c8d1d-fdd2-4b0c-bf2d-6e0226627e84" valueTypeId="ff00fef3-d761-40c0-ac31-8c4c37c63a1f"/>
+    <selectionType typeId="0a76ab9e-1609-4c85-9188-a3cda61ddc0b" valueTypeId="581b4b0f-a4c9-468a-b639-0e273f76cf6c"/>
+    <listType typeId="aa0cffa0-d396-40a6-a315-c71662b322ce" valueTypeId="4e82d710-eea5-4ad1-8c7f-96c43969945c"/>
+    <managerType typeId="6be5b9d3-5e91-4c53-a4c3-cd52c56c08f8" valueTypeId="6321faf9-48a6-40d5-a667-c4d2e110216b"/>
+  </producedTypes>
+  <name>AccommodationTemplates</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

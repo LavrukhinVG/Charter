@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="540ee2af-2d64-4418-af44-ef9a6de2d731">
+  <producedTypes>
+    <objectType typeId="fdedd1cd-b7e8-4b23-9700-a43ba0d17759" valueTypeId="610f7363-f469-4e34-b4b9-2921ff7d6552"/>
+    <managerType typeId="77126edb-99a4-4493-bc40-141f82f1999a" valueTypeId="bb105ee9-618c-4375-ab57-abb116009351"/>
+  </producedTypes>
+  <name>чартер_ОтчетПоКвотированиюОрганизций</name>
+  <synonym>
+    <key>en</key>
+    <value>Квоты чартерных перелётов НРБ</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Квоты чартерных перелётов НРБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.чартер_ОтчетПоКвотированиюОрганизций.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="273bd861-f6b4-4c42-8120-b0285e608492">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

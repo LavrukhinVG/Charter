@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="833aabd5-6e0f-4b0d-bf14-a343c30d0d6b">
+  <producedTypes>
+    <refType typeId="5cdb8d5a-9b6a-4d01-ba00-72cd04ab7b5a" valueTypeId="92e81f1d-f076-41be-8432-52fd5b5aeccb"/>
+    <listType typeId="d38fe628-83a9-4e7a-a172-8b699e4e3bbb" valueTypeId="f44033ef-fd40-4b74-968d-549e485812ae"/>
+    <managerType typeId="c4f74654-8a5e-4edd-824a-4e941f04080f" valueTypeId="5257efee-df08-43f0-bfea-c0bd9edd7b69"/>
+  </producedTypes>
+  <name>чартер_СобытияРасссылок</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер события расссылок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51fb8508-a592-4f52-8866-60c066a1307d">
+    <name>БезСобытия</name>
+    <synonym>
+      <key>en</key>
+      <value>Без события</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Без события</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efca0077-e23e-482b-abdc-78b8e5c0faac">
+    <name>БортСформирован</name>
+    <synonym>
+      <key>en</key>
+      <value>Борт сформирован</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Борт сформирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d997223a-7d3d-4392-a702-0542bcb48714">
+    <name>ИзмененияБорта</name>
+    <synonym>
+      <key>en</key>
+      <value>Изменения борта</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения борта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a8386ea-158a-4715-aa33-c90d1932fc1d">
+    <name>НачалоСбораЗаявок</name>
+    <synonym>
+      <key>en</key>
+      <value>Начало сбора заявок</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сбора заявок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="857d3c05-3ec2-4970-befe-b5b3e86364f1">
+    <name>ИформацияПоБортуПередВылетом</name>
+    <synonym>
+      <key>en</key>
+      <value>Иформация по борту перед вылетом</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Иформация по борту перед вылетом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

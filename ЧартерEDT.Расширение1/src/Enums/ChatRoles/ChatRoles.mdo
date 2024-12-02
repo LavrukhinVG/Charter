@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a7311add-c3d9-410f-a8f7-6e87f478ee93" extendedConfigurationObject="170c0735-1d82-4321-81b9-c3e3d92ded4c">
+  <producedTypes>
+    <refType typeId="0b5d547e-636b-4d79-a748-9f42bf20111f" valueTypeId="69f5fed8-59c9-4a7e-9b80-e1a18827f15a"/>
+    <listType typeId="3027ae4c-9a36-43b5-a34c-34bf34b98cb1" valueTypeId="19be6c71-b643-4c40-89a9-2e3102dc24f5"/>
+    <managerType typeId="11b78ba7-1a39-40d0-8357-a4a154ebb31f" valueTypeId="fff299dd-8fb4-41df-a80a-aa5b5c283301"/>
+  </producedTypes>
+  <name>ChatRoles</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

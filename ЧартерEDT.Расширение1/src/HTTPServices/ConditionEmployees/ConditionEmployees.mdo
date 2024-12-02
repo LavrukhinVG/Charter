@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d996424f-df60-4f4f-b2bc-dd14badd87d9">
+  <name>ConditionEmployees</name>
+  <synonym>
+    <key>en</key>
+    <value>Condition Еmployees</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Condition Еmployees</value>
+  </synonym>
+  <rootURL>ConditionEmployees</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c3dce428-29f3-438a-abc6-abcaea84b10c">
+    <name>СостоянияСотрудников</name>
+    <synonym>
+      <key>en</key>
+      <value>Состояния сотрудников</value>
+    </synonym>
+    <template>/send/*</template>
+    <methods uuid="8661fb15-4f10-4c81-9951-114dc7b6f903">
+      <name>Send</name>
+      <synonym>
+        <key>en</key>
+        <value>Send</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СостоянияСотрудниковSend</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

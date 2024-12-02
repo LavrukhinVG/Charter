@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b7b3bc2-05d7-4d89-9682-a1846a7e2aab" extendedConfigurationObject="ac438c86-2a72-49e0-aa52-db65b66e4e0d">
+  <producedTypes>
+    <refType typeId="afebe5e3-f7eb-40c1-8204-cca08a06e0b0" valueTypeId="8d76bd01-ac18-4606-9364-f8a4b665db12"/>
+    <listType typeId="607bc009-0435-4c8d-b69f-ac2fef9a9998" valueTypeId="f800efc3-ade4-4e7a-aa4a-d9fadc5d07d7"/>
+    <managerType typeId="5a49f096-ce58-4eb5-b608-b1e8765bcdbd" valueTypeId="f6bfc067-bea1-41f2-acb3-c6bbc90c3b60"/>
+  </producedTypes>
+  <name>AgentCommissionTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

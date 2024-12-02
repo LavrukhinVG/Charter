@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306a188e-15ea-4683-92fb-00abf38dac2b">
+  <producedTypes>
+    <objectType typeId="971c71ad-2e1e-4f89-bd51-bcec396df1b6" valueTypeId="2ee8a39d-c35b-4804-a97e-8600897cdceb"/>
+    <managerType typeId="f813be2e-1f7f-4e24-b183-9d5770138033" valueTypeId="975462f1-1b7b-4c4f-b056-57ef4999dc6b"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхБезЗаселения4Комната</name>
+  <synonym>
+    <key>en</key>
+    <value>Создание номерного фонда (4 комнаты)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Создание номеров (4 комнаты)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхБезЗаселения4Комната.Form.Форма</defaultForm>
+  <forms uuid="2d8dc10e-a204-4acd-9b81-af01699d2ead">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

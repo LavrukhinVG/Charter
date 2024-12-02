@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ce3009d-586d-4500-8530-ed31a99227a5" extendedConfigurationObject="05b0fed3-0331-47cc-8196-b33bb9d7181c">
+  <producedTypes>
+    <selectionType typeId="d03f2923-f5bb-4a21-901e-5667b93f4a87" valueTypeId="04100564-f63c-49aa-874a-ee2d8796549d"/>
+    <listType typeId="c8b8c790-26f8-4d1e-9324-6cd1f3761d74" valueTypeId="47f0a504-09b1-45fd-a24d-f89d2d18eaf6"/>
+    <managerType typeId="2786211e-02fc-4a4e-8190-0681dd6ecda5" valueTypeId="cdb2b520-b8ea-474a-a094-eff1baaa19fd"/>
+    <recordSetType typeId="e3fc528c-6417-4d78-9b22-e5867ee0f348" valueTypeId="a856eb72-6633-4f49-9571-fc78bff045cc"/>
+    <recordKeyType typeId="4fb2a58c-b033-4cdb-8872-3ced2e55a3cf" valueTypeId="a37c807b-6822-4828-86ec-c43a7915599f"/>
+    <recordType typeId="e8498c8c-a854-4dc2-ab00-05e17ff31618" valueTypeId="1365f9ca-c1a6-4beb-81f5-c03f2f5c6154"/>
+  </producedTypes>
+  <name>RoomQuotaSales</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="15ed2b79-0d90-4bdf-afc4-b7f0508bd0f2" extendedConfigurationObject="49a26b39-49c9-42a9-bc90-ac5f315c744f">
+    <name>Counter</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="21223acc-d9cd-4836-b053-26de3e6cee95" extendedConfigurationObject="c876c95e-2b0f-4268-8174-63f572028297">
+    <name>RoomsInQuota</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="35f98e87-9e72-4fb4-becd-235701be0b03" extendedConfigurationObject="2887f687-0abc-4be6-bf81-b7ce91f80e06">
+    <name>BedsInQuota</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="557cc85b-8bf5-43e2-b008-73a025fc898f" extendedConfigurationObject="5c42be62-5678-4996-90ed-f97cf63187d2">
+    <name>RoomsRemains</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="9cd48766-08ea-4839-821c-4ebc2c05323e" extendedConfigurationObject="0ebe7917-b9ce-40a9-b303-f86a2b997755">
+    <name>BedsRemains</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="cc127e07-ccae-4cfa-9ecf-9b3578130646" extendedConfigurationObject="8eb5272f-3e85-419f-92f3-6d6bcd969e95">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="fbba94fd-aaf5-426c-aa11-a0d36f7bfa48" extendedConfigurationObject="bf98c769-4c9f-4099-b007-41c04249491f">
+    <name>RoomType</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.RoomTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="4c31b6fc-3362-47da-88cb-6bbed0394993" extendedConfigurationObject="4a2c9738-c8d9-49ad-9abe-300e76ea86f9">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="5870d2a8-dd2f-4f54-91f6-61ccb1338ce2" extendedConfigurationObject="bc86eeca-db08-4412-9fba-c50999e0a116">
+    <name>RoomQuota</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.RoomQuotas</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

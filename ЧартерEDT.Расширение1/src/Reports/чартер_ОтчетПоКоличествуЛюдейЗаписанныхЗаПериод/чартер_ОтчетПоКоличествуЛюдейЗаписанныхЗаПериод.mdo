@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7acf3f74-43cf-440c-8312-e91b6edd8241">
+  <producedTypes>
+    <objectType typeId="9cebc159-cc64-4e24-a217-51883b176b53" valueTypeId="04bc5e56-1719-4358-9327-3546e5a0f5e4"/>
+    <managerType typeId="892a9cf9-3a84-4d44-9ec8-ff02b8a38cb3" valueTypeId="3e2d1bdf-1bc7-482a-b394-03c7260a4191"/>
+  </producedTypes>
+  <name>чартер_ОтчетПоКоличествуЛюдейЗаписанныхЗаПериод</name>
+  <synonym>
+    <key>en</key>
+    <value>Отчет по количеству людей записанных за период</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по количеству людей записанных за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.чартер_ОтчетПоКоличествуЛюдейЗаписанныхЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7f616250-ca60-4950-bb9c-b30942a2aaf7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

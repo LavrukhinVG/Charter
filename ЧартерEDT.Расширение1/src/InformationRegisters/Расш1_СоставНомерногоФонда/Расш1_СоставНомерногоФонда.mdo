@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18acd351-2d17-4010-9eef-91e079f1f298">
+  <producedTypes>
+    <selectionType typeId="6e284062-11ae-4d93-942c-b976cea43d32" valueTypeId="7af3f70a-9882-49b8-820d-c4019088ca53"/>
+    <listType typeId="a6f3dfd6-a8a8-4f43-9c71-cbd4413ce259" valueTypeId="793ef1ca-4f2d-4fe0-9dc9-25df62e29197"/>
+    <managerType typeId="8b6ae5f6-075a-4b4a-a29e-bac788a50f09" valueTypeId="e2aa13a2-6285-4ed0-9f9c-cbf008e03224"/>
+    <recordSetType typeId="17d57e34-6ff1-4b7a-a543-3cd6cb4038b5" valueTypeId="9483cd28-27ec-4fb7-9ef8-397217a2f565"/>
+    <recordKeyType typeId="e60c8823-4a9a-46e4-af77-aa6a9cab106d" valueTypeId="80345e1a-f21c-4ee2-aec8-40b09a517d4f"/>
+    <recordType typeId="47c21550-b15f-443b-be45-3b6355a272bc" valueTypeId="1b43c64e-75d4-4d5b-a042-80be9304591c"/>
+    <recordManagerType typeId="43b0d316-9f30-4e76-bffa-e4849e96d80a" valueTypeId="f532a68a-c66f-4371-aecd-725e2fc9d16a"/>
+  </producedTypes>
+  <name>Расш1_СоставНомерногоФонда</name>
+  <synonym>
+    <key>en</key>
+    <value>Составы номерных фондов</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Составы номерных фондов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Расш1_СоставНомерногоФонда.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Расш1_СоставНомерногоФонда.Form.Форма</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45c9a818-84d6-4d7a-83c4-ab5500fdb66f">
+    <name>НомернойФонд</name>
+    <synonym>
+      <key>en</key>
+      <value>Номерной фонд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Расш1_НомерныеФонды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="ac65f7f5-fb87-4a71-97ba-c32b7350d9f6">
+    <name>Номер</name>
+    <synonym>
+      <key>en</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Rooms</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a7caa3f9-bb88-4e65-8ada-de7c1d402c04">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2db0b1fe-2a4c-4a10-83d7-6c863fce82e4">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de85d10b-2d13-4442-84c0-0ff471a271ad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a5da91c0-9764-4b1b-8522-ad532287424d">
+    <name>СписокРегистраСведенийНФ</name>
+    <synonym>
+      <key>en</key>
+      <value>Список регистра сведений НФ</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Список регистра сведений НФ</value>
+    </synonym>
+    <group>CommandGroup.НомерныеФонды</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

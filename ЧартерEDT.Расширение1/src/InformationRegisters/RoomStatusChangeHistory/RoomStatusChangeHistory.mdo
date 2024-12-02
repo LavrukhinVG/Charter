@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92d7879d-1dcf-4112-9766-705de7accce9" extendedConfigurationObject="58cfce80-3ad3-499b-9b2c-8b51cf3039f7">
+  <producedTypes>
+    <selectionType typeId="0597e57d-22fa-4011-97b7-2ef470c5eced" valueTypeId="acb8603c-a113-478e-aab3-8de5963ab2e9"/>
+    <listType typeId="0e7bc80b-bdd1-471f-a3af-92101ef257d0" valueTypeId="6d382baa-9a62-4b33-9d5c-f955570b5685"/>
+    <managerType typeId="ef115db7-da3b-48c0-8139-f3cdbfe02203" valueTypeId="b27bed19-8a44-43f9-b37f-2faf29045874"/>
+    <recordSetType typeId="915a0e77-4acf-43a8-be31-ea4d2c86cd86" valueTypeId="8e62fb79-7851-4cf0-889b-ec13dd8ef9e6"/>
+    <recordKeyType typeId="c0ef6091-f2b2-4707-8aa9-a92dde347c52" valueTypeId="078dbeea-6586-4711-ba04-01e9cd67931d"/>
+    <recordType typeId="6c990c42-bf58-4905-a174-588530051bf3" valueTypeId="269efbf8-469a-48a1-a4d9-5c2370674470"/>
+    <recordManagerType typeId="c1768768-ce11-49f9-9a49-77d85c3a797a" valueTypeId="95c8d264-f8d0-4d16-bfc2-84a4cd527900"/>
+  </producedTypes>
+  <name>RoomStatusChangeHistory</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dimensions uuid="2cc5c6dc-2580-40b4-82b5-917f67703f40" extendedConfigurationObject="9d4cf84b-2e2b-4c5f-a822-79624e8b00b2">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

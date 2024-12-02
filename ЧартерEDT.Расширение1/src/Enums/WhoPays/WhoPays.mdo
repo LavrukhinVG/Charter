@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="faa41e0b-fe50-452e-bd13-b184d1c67fef" extendedConfigurationObject="5cbde3c6-ec5f-46fa-9801-15d56811f695">
+  <producedTypes>
+    <refType typeId="f15d7025-fe94-41fb-a941-e06d331bd257" valueTypeId="82e8eb99-8d6d-49a4-bead-9268540faea3"/>
+    <listType typeId="e75a267a-294d-4096-8f85-9378e0dd5ec5" valueTypeId="c7fc36bf-ef41-40fc-9f2d-51fdc14fe713"/>
+    <managerType typeId="b3713ef0-e1c7-4000-b43e-8a8c33ef8b0a" valueTypeId="6e418f4b-6b6a-4d7a-a198-d0a4afc64d27"/>
+  </producedTypes>
+  <name>WhoPays</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="2ffd9784-7f85-4ccc-bde0-dd74cafbce54" extendedConfigurationObject="329ab686-0d36-4d77-bd25-73d2847e3f71">
+    <name>ChargingRules</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f7667c82-0b26-4abe-afcf-d595220868a1" extendedConfigurationObject="dd3dfa68-0065-4b20-8636-59ebd276bdfd">
+    <name>Customer</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="5a6dd8e9-5f01-4815-b9e9-664ca95a9a79" extendedConfigurationObject="7dc293b4-fc62-49e4-8836-cb6108d15577">
+    <name>Guest</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

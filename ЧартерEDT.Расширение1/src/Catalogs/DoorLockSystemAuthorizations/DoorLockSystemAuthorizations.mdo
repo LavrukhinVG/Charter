@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71e634f0-a972-40e4-8083-cfd10fda0e58" extendedConfigurationObject="83ef1af4-c9bb-4e2f-b7d8-ab60c21d60ae">
+  <producedTypes>
+    <objectType typeId="0f6d926a-eec5-4ddb-b67a-4cea80e18688" valueTypeId="43f87de6-1425-4022-85d9-997f9b17eb3e"/>
+    <refType typeId="555ab991-082d-481b-bc4a-a307bde208f0" valueTypeId="46191875-7277-46b9-b895-fc6fa3eff624"/>
+    <selectionType typeId="afbab845-5a16-4322-9d87-6104c5b2ab78" valueTypeId="68cbc645-bb16-4ea1-a85f-e27a28040f93"/>
+    <listType typeId="8bf2f54a-6ffc-4300-b737-8da222940c7b" valueTypeId="77122743-7355-4ddc-aebe-23b0883e2608"/>
+    <managerType typeId="7551c6dd-2aec-4134-817c-5d92644a024b" valueTypeId="a526c648-d998-48b3-b898-346e7fb2d988"/>
+  </producedTypes>
+  <name>DoorLockSystemAuthorizations</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f869f3f9-0961-478a-b9b6-61898f3f3fd4" extendedConfigurationObject="1a4004aa-6f7b-4ed8-8f30-9ef8a93d1194">
+  <producedTypes>
+    <refType typeId="127f14fe-8fe4-4729-814c-df9e025b9d5b" valueTypeId="df3b6342-5774-4263-894e-543587d23f39"/>
+    <listType typeId="eba637cd-d65f-4db5-ad87-ba84e35d55ac" valueTypeId="00de7ba9-def0-45c3-885d-451d4df7c05f"/>
+    <managerType typeId="4159f481-ce23-43e1-99af-7a3d1ec8b491" valueTypeId="a5cfefdb-7893-4504-aaee-7826cd77fb3b"/>
+  </producedTypes>
+  <name>ConfirmingDocuments</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="40b07b8b-a3f3-40e6-a797-9615c99dfbba" extendedConfigurationObject="dde14588-0f3f-4506-9519-b1907488e4cc">
+    <name>Visa</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f69dd459-822b-4996-86b8-68ac457e388e" extendedConfigurationObject="708f98b0-cbe2-4861-8c22-e7cbb4159ede">
+    <name>WithoutVisa</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8c42828b-cd6c-4a18-aea7-42408f87bf14" extendedConfigurationObject="d819378d-3c96-4ad5-928d-6bec12871679">
+    <name>PermResidencePermit</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1498e582-20e3-475b-9533-8af7f28b25ee" extendedConfigurationObject="0d69c647-49cd-4ed2-93c1-7ddda466d9e6">
+    <name>TempResidencePermit</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca9a9a68-15e3-405a-868c-a1bb5a89a75e">
+  <name>чартер_ПросмотрПечатнойФормы</name>
+  <synonym>
+    <key>en</key>
+    <value>Просмотр печатной формы</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр печатной формы</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

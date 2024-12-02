@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d02f2f62-9421-496e-b083-8b5d6e90fae5" extendedConfigurationObject="01a904b4-4484-4187-9760-6bf7cf1cedf1">
+  <producedTypes>
+    <objectType typeId="2343195a-09f4-4c89-a110-d745ce6e3066" valueTypeId="7377e767-abef-4f71-80d9-a05b6c615aff"/>
+    <refType typeId="5dacb3e8-0f20-481d-bc91-1b32140580d4" valueTypeId="0ea1734c-c452-4032-bf56-d4c14c017cb9"/>
+    <selectionType typeId="1ec1e299-6fa3-4726-b765-fadb01ad7d90" valueTypeId="5df00b96-5988-4408-8c41-186cccccecaa"/>
+    <listType typeId="a73db993-864b-4079-9494-1e8b8c366b8e" valueTypeId="4ed98f50-be20-4ded-ad4f-e01a75d02f46"/>
+    <managerType typeId="98c4db33-a29f-49d0-9277-621dcf751778" valueTypeId="9462b8fc-4a7c-4b48-ad77-998ee0dd54d3"/>
+  </producedTypes>
+  <name>AgeRanges</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

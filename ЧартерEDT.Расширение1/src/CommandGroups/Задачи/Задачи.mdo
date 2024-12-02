@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2211043c-7717-472e-a31b-2a8fcfe3b93d">
+  <name>Задачи</name>
+  <synonym>
+    <key>en</key>
+    <value>Задачи</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

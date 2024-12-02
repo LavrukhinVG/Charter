@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bf264f0-34cd-49f3-b94b-b85fe986e339">
+  <producedTypes>
+    <refType typeId="5fe5870a-241a-497e-acd8-322fb78f5b3c" valueTypeId="8968c8c9-6561-4eeb-9004-7009d38b3d8a"/>
+    <listType typeId="d958e684-76f1-467c-b49c-5a4a033d5be8" valueTypeId="daeedecf-58a0-4e68-813b-20ae4f928e72"/>
+    <managerType typeId="f4d4622e-a6c0-4b93-8695-ac44290f25cd" valueTypeId="dd7f48a1-105e-426c-89e1-2e347540dc03"/>
+  </producedTypes>
+  <name>чартер_КлассыМестВС</name>
+  <synonym>
+    <key>en</key>
+    <value>Классы мест ВС</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Классы мест ВС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2a5752b6-7aba-4cf4-be32-92014e156c7a">
+    <name>БизнесКласс</name>
+    <synonym>
+      <key>en</key>
+      <value>С - бизнес-класс</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>С - бизнес-класс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02b387a0-cbd1-4f12-a8e0-589d5664b26a">
+    <name>ЭкономическийКлассУлучшенный</name>
+    <synonym>
+      <key>en</key>
+      <value>W - экономический класс улучшенный (Space+)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>W - экономический класс улучшенный (Space+)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5cf7a8d6-d0f4-4eb6-90df-af5ab4461641">
+    <name>ЭкономическийКласс</name>
+    <synonym>
+      <key>en</key>
+      <value>Y - Экономический класс</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Y - Экономический класс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

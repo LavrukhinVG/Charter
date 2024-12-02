@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2de411eb-8884-4ec5-86f2-3a9f82b76bbf" extendedConfigurationObject="201832e5-d4e4-4101-8e94-932afd3bdb68">
+  <producedTypes>
+    <refType typeId="8b275e41-99e6-41ad-b0db-967ab02cd7de" valueTypeId="5c57ccd9-84d4-433f-8b75-b80a0ae26919"/>
+    <listType typeId="4ee12269-1335-4edc-a383-da59a562424b" valueTypeId="9ed97579-1a91-4c97-8954-106d997c4921"/>
+    <managerType typeId="0f1d4345-604b-4a0a-966a-193d43203342" valueTypeId="f4042231-9668-4781-9633-784f16ebc93d"/>
+  </producedTypes>
+  <name>AccommodationListPages</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

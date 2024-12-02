@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="716ad2e6-974a-4704-a652-c319ef83a220">
+  <producedTypes>
+    <objectType typeId="22e9f080-77bf-44e4-aa4f-a2da1e378ceb" valueTypeId="40863da0-c44b-4d45-8d63-322a93911ee4"/>
+    <managerType typeId="5db1c151-866d-413d-88cf-6f3ee2e9389c" valueTypeId="c953081c-5e67-4a8f-935c-1b33b0de8820"/>
+  </producedTypes>
+  <name>ИзменениеНаименованияНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Изменение наименования номеров</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение наименования номеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеНаименованияНомеров.Form.Форма</defaultForm>
+  <forms uuid="b2c8f071-57b7-4f56-8ae8-9d3e98ac8b2f">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

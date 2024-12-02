@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="173921ba-f2b2-4845-afd8-1f54a5f2bcbc" extendedConfigurationObject="bb72adb2-552e-4db5-a508-6628ad218064">
+  <producedTypes>
+    <objectType typeId="e52e5e95-b3c6-4e0f-8585-ccc9139da4ae" valueTypeId="f00b0217-f2f9-454f-b37d-04e5d82067dc"/>
+    <refType typeId="82c10623-5a03-4b55-bbfe-f692c9080e08" valueTypeId="ce135ed2-b993-4135-a5a3-ef1142cf606a"/>
+    <selectionType typeId="a2338601-1272-4bc9-80e8-d5c93c0f853e" valueTypeId="9fd30d88-f20a-4c16-9874-45f1ceeacfca"/>
+    <listType typeId="a45200eb-8bb3-4e69-a55a-d0f33280f279" valueTypeId="84b0ca84-9be9-4ddb-894d-37d99aa0e400"/>
+    <managerType typeId="9ab3c4a8-b3ca-4aa8-a3b5-925e124edd38" valueTypeId="aa5d47bb-5bf4-499d-ad04-d42de4d0c988"/>
+  </producedTypes>
+  <name>CalendarDayTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

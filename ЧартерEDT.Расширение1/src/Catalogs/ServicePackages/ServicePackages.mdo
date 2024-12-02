@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0be4d031-50a6-4eee-bde5-a295b8ba0aec" extendedConfigurationObject="7a57847b-8200-49bf-a34d-36d02cc6556f">
+  <producedTypes>
+    <objectType typeId="20952517-b4ba-4af9-8e15-93e774903c89" valueTypeId="21b457ca-186c-4960-9b7c-6b2129b10ae1"/>
+    <refType typeId="3e93a616-5bc0-48bc-9e4a-a447cdd38842" valueTypeId="8cfe31ff-8396-4cce-bc04-c4167f08392d"/>
+    <selectionType typeId="7bed4967-a271-4d1f-be3d-7f29abd6730b" valueTypeId="0f364a2a-3df9-4479-998c-df9580598984"/>
+    <listType typeId="0afb5a61-e8d3-42eb-989a-ebe3c1b96823" valueTypeId="3974cc6a-323f-49a9-b440-b9f0114a532e"/>
+    <managerType typeId="80b32ed3-c190-4f42-826f-3f48bc3c33eb" valueTypeId="ef596ef7-5a6d-4d3f-8cd0-34c03357c596"/>
+  </producedTypes>
+  <name>ServicePackages</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+</mdclass:Catalog>

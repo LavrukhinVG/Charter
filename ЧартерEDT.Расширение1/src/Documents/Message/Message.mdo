@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1f17bea5-e759-40ef-9696-40245b3f19ac" extendedConfigurationObject="f6d8ac6d-9568-4c99-94ba-8ba41433b3e7">
+  <producedTypes>
+    <objectType typeId="7010870c-fa7f-4e62-8014-3335923d400f" valueTypeId="a304ebc5-76e8-4a52-a693-54c9afb19961"/>
+    <refType typeId="09054a80-904e-43b8-8d07-b100d0bc6d7b" valueTypeId="d79472ab-c4db-46ec-bbe8-26e6d7624dc0"/>
+    <selectionType typeId="e104e489-10ed-43a3-8be4-d2ae0897eb16" valueTypeId="a9782a25-4382-4954-91ee-2a9f49319a17"/>
+    <listType typeId="dae8e792-755e-400d-b96f-ffb308c39abe" valueTypeId="e58d5b60-c0d9-41c0-9616-60f89f68f6df"/>
+    <managerType typeId="a11267ca-c858-4ae7-bf5e-51e9b35a96b7" valueTypeId="6489d961-cae9-42fe-a504-0f343c30cd1b"/>
+  </producedTypes>
+  <name>Message</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <attributes uuid="813c0cb0-ad88-444b-9fb1-bfbfcc18cf61" extendedConfigurationObject="f7efb441-2f96-4827-b986-a373a3aa619d">
+    <name>IsClosed</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="350c27be-4f9a-436b-9992-7af82ccd932b" extendedConfigurationObject="713e5315-7200-4e2e-b8f9-298e174e2569">
+    <name>ByObject</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b803a38e-55e0-4e98-ac2e-46625ad9c285" extendedConfigurationObject="51914dcd-7ce4-49dd-9ff7-c3e9b0f9a741">
+    <name>ValidFromDate</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="64ee510c-68ea-431d-865a-2b8197902005" extendedConfigurationObject="2e407e4e-4670-4e1d-bfb6-482ce4e8e75d">
+    <name>ValidToDate</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="acb0c11d-1242-4c83-8980-5a6ccd3360dd" extendedConfigurationObject="b1291995-ae77-483c-90bf-45b69bcc5a8d">
+    <name>CloseToDate</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="35d160cf-9a1f-49c3-bb86-e9e028716691" extendedConfigurationObject="628874d6-d0bd-44eb-a091-fb6594313fb0">
+    <name>Type</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.MessageTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="21a1e9d9-f778-4520-b216-c3282ead607e" extendedConfigurationObject="06263e36-9291-4887-b712-403ddf2f8c1f">
+    <name>MessageStatus</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.MessageStatuses</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3243eb2f-9f93-45ec-b7c9-ca8e773a6d20" extendedConfigurationObject="6244fc66-d97b-4df4-ac21-1361b196c07e">
+    <name>ForDepartment</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Departments</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2a6ded50-9510-463d-b85d-eeb82ccdb7e4" extendedConfigurationObject="60860c39-78e3-41ec-a816-aa1befb67788">
+    <name>MessageType</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.MessageTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3cd8cd7e-d78f-4715-88f8-759d3e140425" extendedConfigurationObject="c4e43f5f-a045-406d-b88e-5021cc1e6eed">
+    <name>Remarks</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7c69612c-b395-4edf-bd20-69c2c60f7b25" extendedConfigurationObject="5198a270-cf99-41bd-8e62-f7504ff207f3">
+    <name>ClosedBy</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Employees</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="22514295-30f4-4088-8ec5-5b771ca39648" extendedConfigurationObject="5d6a6870-75b3-40f6-a44e-9726aab60a63">
+    <name>ForEmployee</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Employees</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1bc3c3f0-8145-4371-a85c-8c2b084e3d48" extendedConfigurationObject="dcc32206-c0e6-45ef-84e1-168072e4267b">
+    <name>PopUp</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="198cf56b-8347-47dc-b291-97f03404ad2a" extendedConfigurationObject="5eddd104-6050-4a7d-88fe-cb36817c650a">
+    <name>Author</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Employees</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="83907c68-066c-43cf-862e-3e8e7e4b87e2" extendedConfigurationObject="c743adbe-d28c-415e-9a23-7f8c2ce6f120">
+    <name>DateWhenClosed</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8870aca5-6ce3-4c64-945d-dd1e21be9f20" extendedConfigurationObject="3e6cc838-019f-45f5-9a1e-6bbc6f707b0f">
+    <name>ContactPerson</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Clients</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="04022446-5799-4893-9481-028032e12c4a" extendedConfigurationObject="14952da2-1e03-4081-acb2-e84fe5a31226">
+    <name>tcListForm</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="95521333-854c-473a-b0ad-e4b21f13273b" extendedConfigurationObject="df0118f7-4f3d-4a8e-8d96-71ed202f946d">
+    <name>tcDocumentForm</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

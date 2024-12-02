@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2233179d-9358-40aa-ba0e-a98f2f57a0a2" extendedConfigurationObject="51a31acd-24fb-4445-a887-4d834a611827">
+  <producedTypes>
+    <objectType typeId="d5e1f329-d339-418e-99db-3f586bf29159" valueTypeId="01f7ff08-944f-404c-aef6-285ac2608c7c"/>
+    <refType typeId="dc652bc1-b458-4e70-9a84-4d63072939e5" valueTypeId="354935b7-f1f9-4234-be12-9c887631d741"/>
+    <selectionType typeId="a127a0dc-0758-4f8c-be2b-7e549e35624a" valueTypeId="5dd01f9a-c3ec-4d40-82ec-e79b86f9bd0e"/>
+    <listType typeId="c83b9e8a-212a-4494-bd25-ff37b81de39a" valueTypeId="f4207988-76f0-4bda-a5c1-bf178f02623a"/>
+    <managerType typeId="26e4449a-d5bf-43d6-8e49-392ea025bd7c" valueTypeId="eeb45b8c-2101-47de-8026-9f0918d75e91"/>
+  </producedTypes>
+  <name>MessageStatuses</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

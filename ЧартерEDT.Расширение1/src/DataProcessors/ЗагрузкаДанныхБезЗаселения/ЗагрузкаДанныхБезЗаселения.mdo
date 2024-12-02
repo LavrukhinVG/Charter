@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da953c3-4607-417b-9fb4-7a3c7f3ab6c2">
+  <producedTypes>
+    <objectType typeId="54e0ee6a-22a7-4527-a55e-4e8c2ac33f74" valueTypeId="02f6dd17-4e6a-4ff1-92c8-140d4326f796"/>
+    <managerType typeId="57971a85-913c-4c0b-8396-d0ee055edf65" valueTypeId="50076bc1-b8da-4f97-9762-0476fc719e13"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхБезЗаселения</name>
+  <synonym>
+    <key>en</key>
+    <value>Загрузка данных (без заселения)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных без заселения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхБезЗаселения.Form.Форма</defaultForm>
+  <forms uuid="7f98e850-f304-4799-9473-8b2e339a7deb">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

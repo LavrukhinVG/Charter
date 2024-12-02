@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7979e20b-7444-4bbf-86a6-b2fb09bb4df7">
+  <producedTypes>
+    <objectType typeId="81549617-cd8e-4718-841c-72dd4de7d500" valueTypeId="4ddce76d-af7d-4202-8cfd-64f7b9105b5e"/>
+    <refType typeId="ffc57b54-2e7a-424b-b2ba-2692e9887a67" valueTypeId="b665eda2-5a5f-4f5a-a3a5-4c2d9252e295"/>
+    <selectionType typeId="02285030-280e-4f4f-b9b5-0cd68793cc93" valueTypeId="933e6123-9ddb-4281-8a0d-ff8c0fd1fd7f"/>
+    <listType typeId="76760f45-f078-45a1-a5dd-fcbd0fc628cb" valueTypeId="0f6b008e-b252-4be8-8789-e27ea4c58fe3"/>
+    <managerType typeId="c6038181-02b0-4a5f-9264-297dea352bc9" valueTypeId="e17773f9-bbc1-4661-8d25-fa96f42ae256"/>
+  </producedTypes>
+  <name>чартер_ПосадочныеМестаНаРейс</name>
+  <synonym>
+    <key>en</key>
+    <value>Посадочные места на рейс</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Посадочные места на рейс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.чартер_ПосадочныеМестаНаРейс.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.чартер_ПосадочныеМестаНаРейс.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Посадочное место на рейс</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Посадочное место на рейс</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Посадочные места на рейс</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Посадочные места на рейс</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.чартер_ПосадочныеМестаНаРейс.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.чартер_ПосадочныеМестаНаРейс.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.чартер_ПосадочныеМестаНаРейс.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="062f0c64-4ea4-4d17-a43d-fb9576f0e0dc">
+    <name>Класс</name>
+    <synonym>
+      <key>en</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.чартер_КлассыМестВС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05a2debb-9a3d-4d1f-8d4a-54947748c3c1">
+    <name>ИнфоСообщение</name>
+    <synonym>
+      <key>en</key>
+      <value>Инфо сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f86f155b-75d5-4258-9603-5f3cae1583b1">
+    <name>ИнфоАктивно</name>
+    <synonym>
+      <key>en</key>
+      <value>Инфо активно</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Инфо активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd1d320-0e0b-49f1-8cae-4339fd97b299">
+    <name>КомпоновкаВС</name>
+    <synonym>
+      <key>en</key>
+      <value>Компоновка ВС</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновка ВС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.чартер_ТипВСРассадка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fec76ab8-7b57-48ba-9fdf-1991bb947e75">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8858c8d9-169e-4461-8b12-8d48fd00238d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73d5de80-4919-403f-83d9-09f4b93c8a86">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

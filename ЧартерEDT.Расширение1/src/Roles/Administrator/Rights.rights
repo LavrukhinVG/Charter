@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+	<setForNewObjects>true</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<object>
+		<name>CommonCommand.ВсеНомера</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.RoomInventory</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomInventory ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomInventory.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomInventory ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomInventory.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Расш1_НомерныеФонды</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Rooms</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПоселитьСотрудника</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПоискНомеров</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Расширение1</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.АрхивРазмещений</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.RoomQuotaSales</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomQuotaSales ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomQuotaSales.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomQuotaSales ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomQuotaSales.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.Сотрудники</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ЖилойФонд</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.Расш1_Задачи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.СписокНомеров</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.КартаНомерногоФонда</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПроживающиеГости</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+</Rights>

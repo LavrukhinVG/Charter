@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="413f5388-3af3-428a-a62a-227608a0742e" extendedConfigurationObject="96e33efc-a60e-4e6a-92d0-dda66edf8b83">
+  <producedTypes>
+    <refType typeId="d9d713ec-7f56-433a-a4c4-68a76eb57da4" valueTypeId="c2202862-e2f8-48e4-b7e5-4e7557740b00"/>
+    <listType typeId="08b3fa9f-fd43-4d0a-895d-4e84202fcfc6" valueTypeId="4265ea29-83dd-42da-84af-52f0504dbe50"/>
+    <managerType typeId="81589535-9f2c-4b9c-b42c-82b9fce7addb" valueTypeId="6028b85c-c850-43e4-bcca-640b5a01d8c2"/>
+  </producedTypes>
+  <name>FillDefaultRoomPolicies</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

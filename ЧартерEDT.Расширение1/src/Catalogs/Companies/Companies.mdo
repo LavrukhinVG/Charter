@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2bf151c2-5f81-4583-a157-197adde3f98a" extendedConfigurationObject="c5ccce2b-f858-4419-a6bb-80d6e790c18d">
+  <producedTypes>
+    <objectType typeId="72196505-108a-4e41-ba5d-fbc965009635" valueTypeId="0699f641-add7-4278-9304-756aa40cb6ff"/>
+    <refType typeId="fc25ded3-e41d-4954-b7e4-fdb35e1ca640" valueTypeId="3f1e4032-46a8-4c62-ab8e-78f48ac9bc08"/>
+    <selectionType typeId="fd2edccb-f831-421e-85ae-9b8c3448cef9" valueTypeId="8d83cabd-25b0-425f-8211-16bd876a9f0d"/>
+    <listType typeId="813ef76b-3c08-4262-9dc2-3fefaf0e8fb8" valueTypeId="baf077bc-b94a-4222-912d-9bd6934f4c94"/>
+    <managerType typeId="ecbc70aa-a80c-4b8d-93db-e4ec84e88985" valueTypeId="e13acbc6-d9b0-4ecf-8c0c-e2406d92cf9c"/>
+  </producedTypes>
+  <name>Companies</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+</mdclass:Catalog>

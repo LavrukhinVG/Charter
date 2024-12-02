@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="15916a7c-b216-41af-a8f7-b9b5bf64dde9" extendedConfigurationObject="80d3f5b1-3940-4ac0-8fc1-7a6ec687ebd7">
+  <producedTypes>
+    <objectType typeId="a9785302-944f-445a-af4f-d45cdf7a08c8" valueTypeId="dcff37bb-2d6b-4cc8-8414-8bd8d1db0463"/>
+    <refType typeId="b20f6ee3-aa8b-4c0a-bc94-f566a1ab99cd" valueTypeId="df84717c-eafb-492e-af79-b57cafa092ac"/>
+    <selectionType typeId="dcb638e3-c835-40e7-b928-d130f89a4fa0" valueTypeId="63c622dc-3ce4-4bea-9610-d26bb63832db"/>
+    <listType typeId="3de4165c-ede8-4c17-b0ac-c7a80d5b3316" valueTypeId="323e9b7d-da5a-408a-ad4f-1f880ffaf983"/>
+    <managerType typeId="59274a81-22cc-42c3-ac2f-8f575d40ef1e" valueTypeId="74d6de9c-3c27-4492-9b1a-b044f1610f62"/>
+  </producedTypes>
+  <name>PriceTags</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

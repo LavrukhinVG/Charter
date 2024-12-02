@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d82dda0-c68c-4abc-81b1-6826f2e8cde9">
+  <producedTypes>
+    <selectionType typeId="adf10548-2de5-41a9-89da-de27363facf0" valueTypeId="24d54132-b333-43d3-aff6-a03a402a2122"/>
+    <listType typeId="dda7b1a2-e1e2-4a58-a9f6-ca3faf9fcec7" valueTypeId="7b052fa1-72dd-488e-bee6-3e8e4937b08e"/>
+    <managerType typeId="4f051375-5939-45df-b569-457f0aee0a55" valueTypeId="07b212ce-2e75-4863-83d3-9c5ad3b03804"/>
+    <recordSetType typeId="29d21b25-e801-49b1-81b0-7070f84e7aa8" valueTypeId="8b1573f3-9cd1-4b31-89d5-a5a52aa8b9bc"/>
+    <recordKeyType typeId="e328a21b-4c99-4ef6-bee6-6e41b23f7d5b" valueTypeId="5a467b2d-2db2-401a-868b-6d2f7ec1b164"/>
+    <recordType typeId="3e0762d8-d2c6-4bbf-be0f-5445816bc635" valueTypeId="873217de-b15a-451c-affa-419bdc543cb4"/>
+    <recordManagerType typeId="b5520a76-e4a4-45e9-8af2-c54b06775a58" valueTypeId="d32b14fa-c769-4a51-b16d-f28bd8448af1"/>
+  </producedTypes>
+  <name>чартер_ПереносыРейсов</name>
+  <synonym>
+    <key>en</key>
+    <value>Переносы рейсов</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Переносы рейсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="67fe9901-be32-409b-8d33-02eed17405ba">
+    <name>ПричинаПереноса</name>
+    <synonym>
+      <key>en</key>
+      <value>Причина переноса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="a0e4be38-a7da-41f4-8572-781e23c434da">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>en</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="1dec66b7-b0c3-4b51-ae6a-98fc1bf83ddc">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>en</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="821bc89f-37af-4c85-a5b7-7bb95b052697">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>en</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="153ef291-fc74-43d1-bad7-28a46ea7db29">
+    <name>ИсходныйРейс</name>
+    <synonym>
+      <key>en</key>
+      <value>Исходный рейс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Рейсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="162ab4d0-3779-4910-b040-3fa9fb70e42e">
+    <name>КонечныйРейс</name>
+    <synonym>
+      <key>en</key>
+      <value>Конечный рейс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Рейсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2b1a6998-8575-4c78-a5aa-4ff64642d60b">
+    <name>ДокументРегистрации</name>
+    <synonym>
+      <key>en</key>
+      <value>Документ регистрации</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.чартер_ЗаписьНаРейс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

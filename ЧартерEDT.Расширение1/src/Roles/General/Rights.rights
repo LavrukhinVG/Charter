@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>CommonCommand.OpenCurrencyCalculator</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.СправкаБКАЭ_ПоПодрядчику</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Расш1_СоставНомерногоФонда</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Message</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Message ГДЕ (&amp;всеномерадоступны
+			ИЛИ выразить(Message.ByObject как справочник.Rooms) В (&amp;доступныеНомера))</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.RoomInventory</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomInventory ГДЕ RoomInventory.Room В (&amp;доступныеНомера)
+			или &amp;всеномерадоступны
+				</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomInventory ГДЕ RoomInventory.Room В (&amp;доступныеНомера)
+			или &amp;всеномерадоступны
+				</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>Report.СписокПроживающих</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Rooms</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Rooms ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Rooms.Ссылка В (&amp;доступныеНомера)
+					ИЛИ Rooms.ЭтоГруппа = ИСТИНА
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СостоянияСотрудников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Accommodation</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>Accommodation ГДЕ (&amp;всеномерадоступны
+			ИЛИ Accommodation.Room В (&amp;доступныеНомера))</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>Accommodation ГДЕ Accommodation.Room = ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Accommodation.Room В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>Accommodation ГДЕ Accommodation.Room = ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Accommodation.Room В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>Accommodation ГДЕ Accommodation.Room = ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ Accommodation.Room В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.OpenRestaurantControlList</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.СправкаБКАЭ</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПоселитьСотрудника</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.EndOfDay</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПоискНомеров</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.DiscountCards</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ForbiddenIdentificationDocuments</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.VacantRooms</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Расширение1</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Events</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.АрхивРазмещений</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.RoomQuotaSales</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomQuotaSales ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomQuotaSales.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>RoomQuotaSales ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomQuotaSales.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.FrontOffice</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.SalesForecast</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>SalesForecast ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ SalesForecast.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>SalesForecast ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ SalesForecast.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.tcAvailableRoomsReport</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.Сотрудники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ЖилойФонд</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Sales</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>SalesTable ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ SalesTable.Room В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>SalesTable ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ SalesTable.Room В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.RoomBlocks</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>RoomBlocks ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomBlocks.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>RoomBlocks ГДЕ ВЫБОР
+			КОГДА &amp;всеномерадоступны
+				ТОГДА ИСТИНА
+			ИНАЧЕ RoomBlocks.Room.Ссылка В (&amp;доступныеНомера)
+		КОНЕЦ</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Расш1_СтатусыПЦРТестов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.HotelChoice</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.DataProcessorsCommand</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.RoomInventory</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.СписокНомеров</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.КартаНомерногоФонда</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ДублирующиеЗаселения</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПроживающиеГости</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.RoomsOccupationHistory</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ReportsCommand</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+</Rights>

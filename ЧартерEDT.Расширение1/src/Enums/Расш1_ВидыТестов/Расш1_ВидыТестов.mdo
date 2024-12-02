@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60a5e0e6-7e1a-416e-9869-bdc8cdc45722">
+  <producedTypes>
+    <refType typeId="b99090bf-6747-43e0-8053-c14a88ec167f" valueTypeId="c2d34629-45b3-4331-9f47-bcf706dfcd68"/>
+    <listType typeId="baf66ced-57f2-404a-a0c6-017e959e5949" valueTypeId="3b28a9df-cec3-49a9-a90f-064be0bc3d88"/>
+    <managerType typeId="1fdf0de8-8e58-4a61-8c11-905cba3552be" valueTypeId="250a2910-4575-4f01-9bfc-9619657f8bdd"/>
+  </producedTypes>
+  <name>Расш1_ВидыТестов</name>
+  <synonym>
+    <key>en</key>
+    <value>Расш1 виды тестов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c45cf71-a2f9-4a29-9bd2-bebfc47f2070">
+    <name>ПЦР</name>
+    <synonym>
+      <key>en</key>
+      <value>ПЦР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

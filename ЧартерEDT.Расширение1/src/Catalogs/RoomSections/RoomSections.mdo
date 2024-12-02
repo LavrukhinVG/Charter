@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ba4f48fe-8f88-47ee-921f-4363e3acf92f" extendedConfigurationObject="c768ee9d-7b0c-44cb-a579-8549e56e93e6">
+  <producedTypes>
+    <objectType typeId="b0151370-6a0a-40a4-8d9a-67b5c9b08dfe" valueTypeId="e5d6e1ba-3e9e-4d42-a77b-f600b8c711f2"/>
+    <refType typeId="4d6562d8-b68a-4f9d-b2e9-66f5f47a1828" valueTypeId="3ba90234-62e9-4fb0-a7d3-1f993e254306"/>
+    <selectionType typeId="a6202c40-12a3-402b-9fab-7ffc36347918" valueTypeId="4d4d1cca-6257-4f0c-8a60-71dca79546e1"/>
+    <listType typeId="a34515fc-da04-4ac8-b54e-2adef401a53f" valueTypeId="54bdbea9-7dad-4b67-bd16-72f4b5da3480"/>
+    <managerType typeId="fdddb263-5e59-4394-8ef3-07ae98ed0f00" valueTypeId="33513255-b8b9-49b9-b64a-903b9e3133ac"/>
+  </producedTypes>
+  <name>RoomSections</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

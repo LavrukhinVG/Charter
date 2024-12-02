@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28b8a539-6b30-4ae9-ad02-995dafee8935">
+  <producedTypes>
+    <objectType typeId="abb6202d-063e-4866-94e3-1e1820c3cea8" valueTypeId="0aab4344-8e89-48ed-bb32-27af249a4340"/>
+    <refType typeId="36308d79-37e6-457d-9643-6feae6b220c2" valueTypeId="fe6a2a63-efed-4385-a879-204cb367db33"/>
+    <selectionType typeId="a6b0439d-5699-4098-b269-9825efc41a0a" valueTypeId="86ece63f-fc58-46d3-9131-0ce2d411f992"/>
+    <listType typeId="2a938fc6-6a59-448e-aa3d-4ed28a027c6d" valueTypeId="2a6c7250-a597-41cc-8de4-2d95194dd801"/>
+    <managerType typeId="72335213-ef84-4585-93ff-82310868c595" valueTypeId="e0b492d8-e186-46ff-8c4d-2a77102625a5"/>
+  </producedTypes>
+  <name>ВнешниеСистемыОбмена</name>
+  <synonym>
+    <key>en</key>
+    <value>Внешние системы обмена</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние системы обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВнешниеСистемыОбмена.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВнешниеСистемыОбмена.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="115bb0ca-a384-469b-84b9-414eba6056b5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

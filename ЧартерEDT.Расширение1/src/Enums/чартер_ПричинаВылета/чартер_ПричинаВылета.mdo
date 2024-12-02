@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15cbf1a3-d23f-42b8-8ae0-11bfa1a6f2be">
+  <producedTypes>
+    <refType typeId="33b20313-fae9-49d6-b23b-5a208c311a7b" valueTypeId="703ab694-fca5-40eb-9ca8-b76924a85c7d"/>
+    <listType typeId="93adef2e-6669-45b0-a271-b8aad5d1649b" valueTypeId="ea45f5c7-ddf7-481a-a891-56fbe22baf7d"/>
+    <managerType typeId="1ff05c32-4499-4607-9755-1a15bab6c4c2" valueTypeId="978a53d8-ad66-4a12-9f0e-51a1a2e1d09a"/>
+  </producedTypes>
+  <name>чартер_ПричинаВылета</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер причина вылета</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Причина вылета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2f31e50-5c2a-4b80-9590-283659a12e94">
+    <name>Отпуск</name>
+    <synonym>
+      <key>en</key>
+      <value>Отпуск</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a269812-d15f-4605-8212-4eab271e8d4f">
+    <name>КонецКонтракта</name>
+    <synonym>
+      <key>en</key>
+      <value>Конец контракта</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Конец контракта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cc190bb-8d0b-450f-86ec-5aec2cd3dfc0">
+    <name>Другое</name>
+    <synonym>
+      <key>en</key>
+      <value>Другое</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

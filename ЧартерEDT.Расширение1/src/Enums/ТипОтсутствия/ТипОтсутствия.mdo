@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="961f18fb-0134-4b2b-af4a-a22c6831ff81">
+  <producedTypes>
+    <refType typeId="3abde134-ef6f-4e22-9f26-7c75ac94211c" valueTypeId="9c26bdf6-21d4-478b-a996-8b741528b2ca"/>
+    <listType typeId="922c4fcd-4676-4eb0-891b-cfc477b2eda3" valueTypeId="4f3592bd-6c02-4014-b074-b7e519fa0e49"/>
+    <managerType typeId="6080cdc9-7e35-4a5a-aedb-9f31391b8b01" valueTypeId="3b5233fa-d524-4500-81ef-4ce7d66a0e9e"/>
+  </producedTypes>
+  <name>ТипОтсутствия</name>
+  <synonym>
+    <key>en</key>
+    <value>Тип отсутствия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be7b1660-e074-46b9-a7f5-c8e7ca618dbd">
+    <name>Отпуск</name>
+    <synonym>
+      <key>en</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61beb229-3a8b-4182-bff2-5e1082686ad1">
+    <name>Командировка</name>
+    <synonym>
+      <key>en</key>
+      <value>Командировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

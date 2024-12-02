@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6efa984c-c6a6-46ce-8f51-e9cf498d6720" extendedConfigurationObject="5118a4a0-5a9a-4cfb-93cb-8de22b51f5c2">
+  <producedTypes>
+    <objectType typeId="d4d44a14-a05e-4242-8410-4c075228f079" valueTypeId="3bf37025-9594-4ade-a325-71bdefdfd76a"/>
+    <refType typeId="e9d1ec4b-f068-41e0-8dba-9c8010b26fb8" valueTypeId="58ab0590-0dee-421a-9fe9-9d47d7217b27"/>
+    <selectionType typeId="76f037d2-a113-4433-acee-6bf31d67cf2a" valueTypeId="094b29a9-4eaa-4f02-a79b-909e32e4a299"/>
+    <listType typeId="7bb25ccc-5e0d-4a88-8d91-a1b5b851b945" valueTypeId="67228e63-6774-4ae0-962a-f2dae27143cd"/>
+    <managerType typeId="b7038f86-1164-4b35-82e9-ac04f867fcad" valueTypeId="7e8473bd-3d12-4dc7-a2dc-611bbce2c8a0"/>
+  </producedTypes>
+  <name>ReservationStatuses</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="d34b0d81-d344-415e-875b-433feea1e966" extendedConfigurationObject="9402d01e-5217-4795-8e80-1f81170575ef">
+    <name>IsActive</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d4437eb6-c720-4a7c-967d-a2db2977a5d6" extendedConfigurationObject="3beb9f9e-9304-4a38-a309-a98400b629f9">
+    <name>IsPreliminary</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="da1fc82f-af2e-4343-bb4b-190367421118" extendedConfigurationObject="e459b962-ffa9-42af-bd70-7ecfac9371d7">
+    <name>ShowInClientsSearchForm</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

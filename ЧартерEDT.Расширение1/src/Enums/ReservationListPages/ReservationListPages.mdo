@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e0e5e10-1f36-40d6-93fd-f11fb7337827" extendedConfigurationObject="b2fe71c2-d362-4631-8889-d1a22e597585">
+  <producedTypes>
+    <refType typeId="1d35fc0f-1f11-4516-9620-7e0bce9000ac" valueTypeId="333ed08e-38be-4393-8283-106f07d1a7cd"/>
+    <listType typeId="a0bf8eae-21aa-40fc-810a-2bcf237186e3" valueTypeId="5842e34f-fdfc-4a7d-91e9-511b621df05a"/>
+    <managerType typeId="92fb7577-50f9-49ad-95b5-0a0484b2f3bb" valueTypeId="ac2a7262-9fa1-4edf-871e-58940d4ac3f6"/>
+  </producedTypes>
+  <name>ReservationListPages</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

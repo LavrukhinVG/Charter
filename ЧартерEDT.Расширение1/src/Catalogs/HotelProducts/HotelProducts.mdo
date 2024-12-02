@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="07bb324b-1888-4daf-bead-b67699153331" extendedConfigurationObject="ef2dabba-8905-45c5-a6a4-8de80deef7b5">
+  <producedTypes>
+    <objectType typeId="69bc4c71-186c-43c2-a3c2-82e5952975fe" valueTypeId="d97f3ca5-64bf-4fe1-9364-e0c3398d33f8"/>
+    <refType typeId="994c3e43-30e4-4dc0-82ae-e586ca8706dc" valueTypeId="51f26cfb-0859-4647-9968-14bf3aa93c7f"/>
+    <selectionType typeId="e316564e-90a9-4f64-8e8e-676082270c61" valueTypeId="cd33ce5b-cee7-431d-9bd0-a1c5b0143e68"/>
+    <listType typeId="452fb94b-7794-4edb-8cc7-d46db79ec210" valueTypeId="2d32992f-7c54-4301-9b64-041d7b92fcb5"/>
+    <managerType typeId="63da889d-ce0a-49ba-82db-e93012b6be79" valueTypeId="40d6bd21-4552-49ef-abf5-57532c017b0f"/>
+  </producedTypes>
+  <name>HotelProducts</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+  </extension>
+  <hierarchical>true</hierarchical>
+</mdclass:Catalog>

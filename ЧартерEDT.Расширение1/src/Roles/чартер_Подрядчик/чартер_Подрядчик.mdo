@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe105cf4-cfa8-47f5-b22b-1940161cba86">
+  <name>чартер_Подрядчик</name>
+  <synonym>
+    <key>en</key>
+    <value>чартер_Подрядчик</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>чартер_Подрядчик</value>
+  </synonym>
+</mdclass:Role>

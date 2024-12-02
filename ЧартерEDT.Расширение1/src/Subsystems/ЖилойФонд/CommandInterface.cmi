@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonCommand.ПоискНомеров</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.Расш1_Задачи</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.Задачи</group>
+      <commands>CommonCommand.Расш1_Задачи</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.Размещение</group>
+      <commands>CommonCommand.ПроживающиеГости</commands>
+      <commands>CommonCommand.ПоселитьСотрудника</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Задачи</group>
+      <commands>CommonCommand.Расш1_Задачи</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

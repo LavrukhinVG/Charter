@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="614c4fac-c988-42e1-ae74-0acb0e204bd4">
+  <producedTypes>
+    <selectionType typeId="26bb7b5f-4409-467e-9406-57b54f680276" valueTypeId="85c34d12-513e-4505-b00e-6276e672d755"/>
+    <listType typeId="158cc0de-440b-4c48-a62f-01e335919d01" valueTypeId="394640db-c3be-4234-ae31-38084169fbcf"/>
+    <managerType typeId="a41cb7cc-481e-4aef-b462-4def385b66e9" valueTypeId="c6024857-5fbe-461b-906b-85eb4eb71814"/>
+    <recordSetType typeId="9bf344fd-05f8-473f-9e43-a6c81771270e" valueTypeId="0a953c2d-57c8-4255-9dcd-3c0129e8728f"/>
+    <recordKeyType typeId="564d2f6d-65ba-4e0f-b202-418e59e67fb2" valueTypeId="cedf3403-dec8-40ba-a42f-34083014a269"/>
+    <recordType typeId="72c530c6-e4f6-4fd0-90cc-f1eae658275e" valueTypeId="f83ad9c7-591f-43a9-947f-f333f939a4a4"/>
+    <recordManagerType typeId="90c8ff8d-d42b-4977-a54d-2c70f6fba6b1" valueTypeId="51dbd924-390d-43ee-ae97-4030fe575631"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовВоВнешнихСистемах</name>
+  <synonym>
+    <key>en</key>
+    <value>Идентификаторы объектов во внешних системах</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы объектов во внешних системах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИдентификаторыОбъектовВоВнешнихСистемах.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИдентификаторыОбъектовВоВнешнихСистемах.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4a08e0a0-bf67-4eec-86d9-ea0871e04f54">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Clients</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="68e3cd22-8d8c-458f-8f05-eb62850fb9ea">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнешниеСистемыОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48d117d6-2b8a-4516-b821-596ff24832e5">
+    <name>ИдентификаторОбъектаВоВнешнейСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта во внешней системе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a0212c50-16d1-4ce5-b953-7a420948fa32">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="068c7d1a-9ef3-44b3-b5c0-1c14c728f52b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

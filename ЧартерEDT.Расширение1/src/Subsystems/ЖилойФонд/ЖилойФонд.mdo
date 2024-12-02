@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a61505cb-e8a2-49a4-a116-bb8055a2b8c4">
+  <name>ЖилойФонд</name>
+  <synonym>
+    <key>en</key>
+    <value>Жилой фонд</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Жилой фонд</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расш1_ОбщаяКартинка1</picture>
+  </picture>
+  <content>CommonCommand.Расш1_Задачи</content>
+  <content>CommandGroup.Задачи</content>
+  <content>CommandGroup.Сотрудники</content>
+  <content>CommonCommand.Сотрудники</content>
+  <content>CommandGroup.НомернойФонд</content>
+  <content>CommandGroup.Размещение</content>
+  <content>CommonCommand.ПроживающиеГости</content>
+  <content>CommonCommand.ПоселитьСотрудника</content>
+  <content>CommonCommand.СписокНомеров</content>
+  <content>Report.СправкаБКАЭ</content>
+  <content>Report.ДублирующиеЗаселения</content>
+  <content>CommonCommand.ПоискНомеров</content>
+  <content>Report.СправкаБКАЭ_ПоПодрядчику</content>
+  <content>Enum.ТипыКомнат</content>
+</mdclass:Subsystem>

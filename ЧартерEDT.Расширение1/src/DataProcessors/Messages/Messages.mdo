@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f849d801-1969-4f8c-afb1-41c943e08204" extendedConfigurationObject="f8133e03-faf1-49f8-86df-12fcb05a43a7">
+  <producedTypes>
+    <objectType typeId="d14c7d1d-fa81-4e2b-848b-73f12c59f7d1" valueTypeId="5fce2856-ed83-40bb-bba0-c9d44d478bca"/>
+    <managerType typeId="0b02cbf0-5c4e-4a17-a398-fff7dbcee9ad" valueTypeId="e1b626ec-331a-434f-849f-7730d8167947"/>
+  </producedTypes>
+  <name>Messages</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:DataProcessor>

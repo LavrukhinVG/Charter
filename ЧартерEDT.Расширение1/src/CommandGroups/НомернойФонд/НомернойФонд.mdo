@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ca485a7-5a76-49b2-874b-bdbd65d560b1">
+  <name>НомернойФонд</name>
+  <synonym>
+    <key>en</key>
+    <value>Номерной фонд</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Номерной фонд</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

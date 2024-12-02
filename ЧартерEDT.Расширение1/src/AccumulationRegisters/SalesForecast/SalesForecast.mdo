@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a0bb6dff-d53b-4ea8-892c-08947f1b9193" extendedConfigurationObject="241186c1-b18c-419a-bbbf-ad4e1a340963">
+  <producedTypes>
+    <selectionType typeId="23b5c76b-5965-4fa0-8d3c-003d5501a8b7" valueTypeId="3520075b-8361-415c-abbb-2f99436312b0"/>
+    <listType typeId="b93e4791-c440-45eb-97e0-6baef8ef876e" valueTypeId="d6af2540-334b-4cd6-bc22-77cd39470e65"/>
+    <managerType typeId="815200bf-a7c0-41f5-9c46-537e3f45eaa2" valueTypeId="80bd657f-71ae-4637-a2a8-9e2bf8456de7"/>
+    <recordSetType typeId="617eb10d-ecf2-49b7-b043-9ee276b6dfd6" valueTypeId="e06041a2-20b0-4019-81ef-eab0acd9a82a"/>
+    <recordKeyType typeId="c8527670-1456-479e-81f5-f86abe004ac3" valueTypeId="11b32af2-9dde-4358-beeb-7c2a6962522d"/>
+    <recordType typeId="08439575-f4b4-4d5c-8e48-dca2ab9de436" valueTypeId="3eb30c34-0bd9-4c3d-b938-49eab4093675"/>
+  </producedTypes>
+  <name>SalesForecast</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <dimensions uuid="902d5c2d-ecf0-40a8-8419-9201c05ad2dd" extendedConfigurationObject="da1cee11-ff60-4f11-a83e-88d370cec373">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="2634634e-280d-4999-ae02-907f4db22e3a" extendedConfigurationObject="e2d4277b-15c0-427b-aec0-6837f8dec35a">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

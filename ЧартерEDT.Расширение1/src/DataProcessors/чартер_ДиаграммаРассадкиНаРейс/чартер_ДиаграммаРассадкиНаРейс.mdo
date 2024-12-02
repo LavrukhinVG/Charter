@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474557b3-cbba-4211-95bc-158f5dec4120">
+  <producedTypes>
+    <objectType typeId="71dc72c9-3e38-4374-9103-852c01f9f58e" valueTypeId="7e0a1aad-3831-44f4-8c43-10c94d781bb0"/>
+    <managerType typeId="67b6dc89-df05-41b1-8d27-01485dc2f349" valueTypeId="14d25b85-0985-4f2c-a3d5-d0d1ca535ce5"/>
+  </producedTypes>
+  <name>чартер_ДиаграммаРассадкиНаРейс</name>
+  <synonym>
+    <key>en</key>
+    <value>Диаграмма рассадки на рейс</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма рассадки на рейс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.чартер_ДиаграммаРассадкиНаРейс.Form.Форма</defaultForm>
+  <attributes uuid="1e2a0ecc-98b3-435c-b852-fffc4fbf69c7">
+    <name>Рейс</name>
+    <synonym>
+      <key>en</key>
+      <value>Рейс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Рейсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f10d7cee-e2da-4b46-ba89-a5cd5d03d309">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

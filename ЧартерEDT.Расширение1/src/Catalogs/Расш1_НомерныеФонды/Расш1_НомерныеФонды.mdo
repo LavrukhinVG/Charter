@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32af06e0-ca92-41dc-beeb-d7273a9d807a">
+  <producedTypes>
+    <objectType typeId="414571b2-a672-4a0b-84a3-0b41b2894329" valueTypeId="1904aa3b-2e8d-4de4-bb0d-39b1c9e67fe8"/>
+    <refType typeId="07689da6-1c6d-4d74-b293-223078b0a0de" valueTypeId="1ede25bc-0db5-4bd9-af9e-4d927f334581"/>
+    <selectionType typeId="2d0a149e-ce43-4e03-8c2f-0cda44c6656b" valueTypeId="ba53b760-7682-4be9-8f72-199a36681168"/>
+    <listType typeId="8cbb195e-76ec-4fa3-b812-31b5989ddf94" valueTypeId="e8a911ee-6576-4a72-93da-0b8fa5d56618"/>
+    <managerType typeId="a74958e2-e343-481e-a370-2672f1dd3bfa" valueTypeId="0d9d64c7-81fa-4a16-817c-630bcf4d3cbb"/>
+  </producedTypes>
+  <name>Расш1_НомерныеФонды</name>
+  <synonym>
+    <key>en</key>
+    <value>Субподрядчики</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Субподрядчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_НомерныеФонды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Расш1_НомерныеФонды.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Расш1_НомерныеФонды.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Расш1_НомерныеФонды.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4838bd30-5017-4393-bbae-eeadecd8e432">
+    <name>ПоказыватьВСпрвкеБКАЭ</name>
+    <synonym>
+      <key>en</key>
+      <value>Показывать в отчете</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать в отчете</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b6d77d1-9777-4b7e-8ec3-9c88ef11fbed">
+    <name>КодБЕ</name>
+    <synonym>
+      <key>en</key>
+      <value>Код БЕ</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код БЕ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc491fcd-af3b-46d3-b31d-fa8961c26bb7">
+    <name>ЗагруженИзЗУП</name>
+    <synonym>
+      <key>en</key>
+      <value>Загружен из ЗУП</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен из ЗУП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1988e279-071f-4451-9a0f-1009a2be8908">
+    <name>чартер_ОтветственныйЗаЧартеры</name>
+    <synonym>
+      <key>en</key>
+      <value>Чартер ответственный за чартеры</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чартер ответственный за чартеры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca3b925d-0cd9-40d5-965b-363e5c369a11">
+    <name>чартер_НаименованиеЗУП</name>
+    <synonym>
+      <key>en</key>
+      <value>Чартер наименование ЗУП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a90b9e59-3171-4f7a-95be-81a42e635b60">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d046324-eb0f-4a04-93cd-ff872b0bef97">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1ebcd54-2210-4481-b985-6e3fa7f8f2f5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

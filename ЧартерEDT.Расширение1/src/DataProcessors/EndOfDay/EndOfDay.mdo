@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="632e4754-21d2-4f55-a7f3-47f1922e2936" extendedConfigurationObject="bd9dd679-164b-45a9-a926-a2f65720f59c">
+  <producedTypes>
+    <objectType typeId="8da396ca-3c98-4d4a-a747-b96c517f4e2d" valueTypeId="263fcf05-24ce-4754-a549-2fb3e8cd942f"/>
+    <managerType typeId="14b4148a-4a30-4afe-bce9-95580f570e00" valueTypeId="f06aa6c8-8fac-45b9-946e-d51ec72e1210"/>
+  </producedTypes>
+  <name>EndOfDay</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:DataProcessor>

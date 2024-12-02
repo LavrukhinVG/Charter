@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5af9a9d-6ea2-4be5-8d05-c780040aaaf2" extendedConfigurationObject="f8b5ccc9-6015-49e7-ba9c-f1db9ed976c8">
+  <producedTypes>
+    <objectType typeId="a171ab1b-04fe-4953-bfd0-44f08972d1dd" valueTypeId="1d097255-ff57-4f1d-bd3f-e09ab875c4dd"/>
+    <refType typeId="9a5ba773-348a-4253-a791-7251712bbfe4" valueTypeId="07fa397c-c8fe-47bf-bb37-102a0c095a01"/>
+    <selectionType typeId="68ad14dd-5b1d-4a38-b8c8-334faf74d060" valueTypeId="d659b75c-bfe1-481f-8b6f-0cf0c8b916a8"/>
+    <listType typeId="28b77016-38a8-4ffb-8f6a-059b7ff1b775" valueTypeId="0898bdc8-5069-44a7-86cf-330b199310c3"/>
+    <managerType typeId="cee2b9e0-06e2-4a22-8acb-0c2f5aaec9e8" valueTypeId="494ebbfd-4fcc-4f18-b088-1d1fc73c0cf8"/>
+  </producedTypes>
+  <name>Folio</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="0357f472-a1a6-4302-8d08-58f65fc05ee8" extendedConfigurationObject="4d7ca353-9185-4293-bbaf-3862773fa004">
+    <name>FolioCurrency</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Currencies</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="31094b63-67f9-437d-9fe0-fb2116b08254" extendedConfigurationObject="2272fc8a-6912-43b5-9b91-5604885cac6a">
+    <name>Description</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9d7e5fcc-f65e-4cea-88dc-88e19ae606a8" extendedConfigurationObject="ddcdd264-1b70-463f-b0c6-d7a6f797c564">
+    <name>Company</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Companies</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8e85427a-8638-45aa-a1f1-cb632026a6ef" extendedConfigurationObject="5a53a740-0159-41cf-a053-9580ca5a688f">
+    <name>DoNotUpdateCompany</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c7329374-c812-4190-92a0-1ead238611b9" extendedConfigurationObject="9cc4b8a4-6694-4476-82f0-46f1ad7fef1c">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2c187c54-0e3a-442a-8740-75a1a80838c6" extendedConfigurationObject="57de2a18-72ca-4f87-b8e5-1a0d99c8770c">
+    <name>Customer</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Customers</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

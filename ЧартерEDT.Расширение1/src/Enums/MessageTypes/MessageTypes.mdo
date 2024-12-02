@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b17f2af0-2b75-4e46-82f0-d0b34c3cb586" extendedConfigurationObject="823385cc-c67a-4183-953c-9c653c13c896">
+  <producedTypes>
+    <refType typeId="6e081708-4255-4c71-a6bb-04b335544030" valueTypeId="0ff993e2-18b4-4e17-849d-a4495ba5950b"/>
+    <listType typeId="bb661d9e-8e7a-4fff-8669-9f6e5122d936" valueTypeId="3913cc74-23fa-4a16-a9dc-8fd7b240d8ad"/>
+    <managerType typeId="86f8fcc9-c3ad-4447-b62b-28941ec98ba0" valueTypeId="b2758fdc-6061-4801-b732-47897597d8a1"/>
+  </producedTypes>
+  <name>MessageTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="207d1f8b-914b-4e4a-8c5d-2b8998973641" extendedConfigurationObject="b8077af8-10ca-411f-9747-3fd5dfdf6cb2">
+    <name>Task</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

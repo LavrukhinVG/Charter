@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f4a1d6c-c50f-4717-891f-c13003a9e583" extendedConfigurationObject="4a7193c0-dd5c-4c2b-a672-919b36fe31d0">
+  <producedTypes>
+    <objectType typeId="debd8420-8794-41aa-8cef-61b3ba71a611" valueTypeId="b8efb11c-dd19-4b96-bab2-318b7052a4ba"/>
+    <refType typeId="44a0fb78-175d-42a7-ad2d-6046354b0d1c" valueTypeId="ebca5a70-11e8-4d5b-93e9-a2a7e74a8355"/>
+    <selectionType typeId="25e19fb9-d4b6-4186-8f5a-b828723b68a4" valueTypeId="55738fa2-1872-4a32-bf97-834027a0f156"/>
+    <listType typeId="c861981e-76fa-4a1a-93f0-ca2312bd3501" valueTypeId="3bcf1d49-0668-4ead-abba-59d676104771"/>
+    <managerType typeId="65b90411-57aa-40e0-991a-0b56c711e357" valueTypeId="f27fe441-cb11-4409-bec6-0671691ff961"/>
+  </producedTypes>
+  <name>Employees</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="770fce42-2472-4859-87a2-6cf6fcd44548" extendedConfigurationObject="402ffe45-63fa-4f23-8695-a13fc2517ad9">
+    <name>PermissionGroup</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.PermissionGroups</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

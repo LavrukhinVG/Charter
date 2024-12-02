@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>DataSource1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>DataSet1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Accommodation</dataPath>
+			<field>Accommodation</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИТР</dataPath>
+			<field>ИТР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИТР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОдиноких</dataPath>
+			<field>КоличествоОдиноких</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество одиноких</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредставлениеОрганизации</dataPath>
+			<field>ПредставлениеОрганизации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление организации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоКвартир</dataPath>
+			<field>КоличествоКвартир</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество квартир</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДомов</dataPath>
+			<field>КоличествоДомов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество домов</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОПР</dataPath>
+			<field>ОПР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОПР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЖильцов</dataPath>
+			<field>КоличествоЖильцов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество жильцов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСемейных</dataPath>
+			<field>КоличествоСемейных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество семейных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СотрудниковЕгипет</dataPath>
+			<field>СотрудниковЕгипет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудников египет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СотрудниковРоссия</dataPath>
+			<field>СотрудниковРоссия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудников россия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СотрудниковБелорусь</dataPath>
+			<field>СотрудниковБелорусь</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудников белорусь</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СотрудниковКорея</dataPath>
+			<field>СотрудниковКорея</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудников корея</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЗанятыхКомнат</dataPath>
+			<field>КоличествоЗанятыхКомнат</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество занятых комнат</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСвободныхКомнат</dataPath>
+			<field>КоличествоСвободныхКомнат</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество свободных комнат</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧленыСемьи</dataPath>
+			<field>ЧленыСемьи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Члены семьи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСвободныхКомнатБезБлокировки</dataPath>
+			<field>КоличествоСвободныхКомнатБезБлокировки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество свободных комнат без блокировки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>DataSource1</dataSource>
+		<query>SELECT ALLOWED DISTINCT
+	Расш1_СоставНомерногоФонда.НомернойФонд AS Организация,
+	COUNT(DISTINCT Расш1_СоставНомерногоФонда.Номер.Parent) AS КоличествоДомов,
+	COUNT(DISTINCT CAST((CAST(Расш1_СоставНомерногоФонда.Номер.Parent.Description AS STRING(5))) + (CAST(Расш1_СоставНомерногоФонда.Номер.НомерКвартиры AS STRING(10))) AS STRING(10))) AS КоличествоКвартир
+INTO втДомаКвартиры
+FROM
+	InformationRegister.Расш1_СоставНомерногоФонда AS Расш1_СоставНомерногоФонда
+WHERE
+	Расш1_СоставНомерногоФонда.Номер.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+	AND NOT Расш1_СоставНомерногоФонда.Номер.DeletionMark
+
+GROUP BY
+	Расш1_СоставНомерногоФонда.НомернойФонд
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	COUNT(AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втВсегоЖильцов
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втКоличествоОдиноких
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.ТипПроживания = VALUE(Enum.Расш1_ТипПроживания.Single)
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втТолькоСемейные
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.ТипПроживания = VALUE(Enum.Расш1_ТипПроживания.family)
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втИТР
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND (AccommodationChangeHistorySliceLast.Guest.КатегорияПроживающего.Order = 1
+			OR AccommodationChangeHistorySliceLast.Guest.КатегорияПроживающего.Order = 6)
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втОПР
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND (AccommodationChangeHistorySliceLast.Guest.КатегорияПроживающего.Order = 3
+			OR AccommodationChangeHistorySliceLast.Guest.КатегорияПроживающего.Order = 8)
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втЧленыСемьи
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.КатегорияПроживающего.Order = 4
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втСотрудникиЕгипет
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.Citizenship.Code = 818
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втСотрудникиРоссия
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.Citizenship.Code = 643
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втСотрудникиБелорусь
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.Citizenship.Code = 112
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED DISTINCT
+	COUNT(DISTINCT AccommodationChangeHistorySliceLast.Guest) AS Guest,
+	AccommodationChangeHistorySliceLast.Guest.Организация AS Организация
+INTO втСотрудникиКорея
+FROM
+	InformationRegister.AccommodationChangeHistory.SliceLast AS AccommodationChangeHistorySliceLast
+WHERE
+	AccommodationChangeHistorySliceLast.CheckOutDate &gt;= &amp;CheckOutDate
+	AND AccommodationChangeHistorySliceLast.AccommodationStatus.SortCode = 10
+	AND AccommodationChangeHistorySliceLast.Guest.Citizenship.Code IN (410, 398, 804, 860, 762, 498, 400)
+	AND AccommodationChangeHistorySliceLast.Room.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+
+GROUP BY
+	AccommodationChangeHistorySliceLast.Guest.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	Расш1_СоставНомерногоФонда.Номер AS Номер,
+	Расш1_СоставНомерногоФонда.НомернойФонд AS НомернойФонд
+INTO втСосотавНомерногоФонда
+FROM
+	InformationRegister.Расш1_СоставНомерногоФонда AS Расш1_СоставНомерногоФонда
+WHERE
+	Расш1_СоставНомерногоФонда.Номер.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	Расш1_СоставНомерногоФонда.НомернойФонд AS Организация,
+	Расш1_СоставНомерногоФонда.Номер.Ref AS Номер,
+	CASE
+		WHEN Расш1_СоставНомерногоФонда.Номер.RoomStatus = VALUE(Справочник.RoomStatuses.ПустаяСсылка)
+			THEN FALSE
+		ELSE TRUE
+	END AS СтатусКомнатыРС
+INTO втЗанятоИСвободно
+FROM
+	InformationRegister.Расш1_СоставНомерногоФонда AS Расш1_СоставНомерногоФонда
+WHERE
+	NOT Расш1_СоставНомерногоФонда.Номер.DeletionMark
+	AND NOT Расш1_СоставНомерногоФонда.Номер.IsVirtual
+	AND Расш1_СоставНомерногоФонда.Номер.ЛокацияРазмещения IN(&amp;ЛокацияРазмещения)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	COUNT(DISTINCT втЗанятоИСвободно.Номер) AS Номер,
+	втЗанятоИСвободно.Организация AS Организация
+INTO втЗанятыеКомнаты
+FROM
+	втЗанятоИСвободно AS втЗанятоИСвободно
+WHERE
+	втЗанятоИСвободно.СтатусКомнатыРС = FALSE
+
+GROUP BY
+	втЗанятоИСвободно.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	COUNT(DISTINCT втЗанятоИСвободно.Номер) AS Номер,
+	втЗанятоИСвободно.Организация AS Организация
+INTO втСвободныеКомнаты
+FROM
+	втЗанятоИСвободно AS втЗанятоИСвободно
+WHERE
+	втЗанятоИСвободно.СтатусКомнатыРС = TRUE
+
+GROUP BY
+	втЗанятоИСвободно.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT ALLOWED
+	COUNT(DISTINCT втЗанятоИСвободно.Номер) AS Номер,
+	втЗанятоИСвободно.Организация AS Организация
+INTO втСвободныеКомнатыБезБлокировки
+FROM
+	втЗанятоИСвободно AS втЗанятоИСвободно
+WHERE
+	втЗанятоИСвободно.СтатусКомнатыРС = TRUE
+	AND NOT втЗанятоИСвободно.Номер.БлокировкаРазмещения
+
+GROUP BY
+	втЗанятоИСвободно.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+SELECT
+	ISNULL(Расш1_НомерныеФонды.Presentation, 0) AS ПредставлениеОрганизации,
+	ISNULL(втДомаКвартиры.КоличествоДомов, 0) AS КоличествоДомов,
+	ISNULL(втДомаКвартиры.КоличествоКвартир, 0) AS КоличествоКвартир,
+	ISNULL(втВсегоЖильцов.Guest, 0) AS КоличествоЖильцов,
+	ISNULL(втКоличествоОдиноких.Guest, 0) AS КоличествоОдиноких,
+	ISNULL(втТолькоСемейные.Guest, 0) AS КоличествоСемейных,
+	ISNULL(втИТР.Guest, 0) AS ИТР,
+	ISNULL(втОПР.Guest, 0) AS ОПР,
+	ISNULL(втЧленыСемьи.Guest, 0) AS ЧленыСемьи,
+	ISNULL(втСотрудникиЕгипет.Guest, 0) AS СотрудниковЕгипет,
+	ISNULL(втСотрудникиРоссия.Guest, 0) AS СотрудниковРоссия,
+	ISNULL(втСотрудникиБелорусь.Guest, 0) AS СотрудниковБелорусь,
+	ISNULL(втСотрудникиКорея.Guest, 0) AS СотрудниковКорея,
+	ISNULL(втЗанятыеКомнаты.Номер, 0) AS КоличествоЗанятыхКомнат,
+	ISNULL(втСвободныеКомнаты.Номер, 0) AS КоличествоСвободныхКомнат,
+	ISNULL(втСвободныеКомнатыБезБлокировки.Номер, 0) AS КоличествоСвободныхКомнатБезБлокировки
+FROM
+	Catalog.Расш1_НомерныеФонды AS Расш1_НомерныеФонды
+		LEFT JOIN втВсегоЖильцов AS втВсегоЖильцов
+		ON Расш1_НомерныеФонды.Ref = втВсегоЖильцов.Организация
+		LEFT JOIN втКоличествоОдиноких AS втКоличествоОдиноких
+		ON Расш1_НомерныеФонды.Ref = втКоличествоОдиноких.Организация
+		LEFT JOIN втТолькоСемейные AS втТолькоСемейные
+		ON Расш1_НомерныеФонды.Ref = втТолькоСемейные.Организация
+		LEFT JOIN втИТР AS втИТР
+		ON Расш1_НомерныеФонды.Ref = втИТР.Организация
+		LEFT JOIN втОПР AS втОПР
+		ON Расш1_НомерныеФонды.Ref = втОПР.Организация
+		LEFT JOIN втСотрудникиЕгипет AS втСотрудникиЕгипет
+		ON Расш1_НомерныеФонды.Ref = втСотрудникиЕгипет.Организация
+		LEFT JOIN втСотрудникиРоссия AS втСотрудникиРоссия
+		ON Расш1_НомерныеФонды.Ref = втСотрудникиРоссия.Организация
+		LEFT JOIN втСотрудникиБелорусь AS втСотрудникиБелорусь
+		ON Расш1_НомерныеФонды.Ref = втСотрудникиБелорусь.Организация
+		LEFT JOIN втСотрудникиКорея AS втСотрудникиКорея
+		ON Расш1_НомерныеФонды.Ref = втСотрудникиКорея.Организация
+		LEFT JOIN втЗанятыеКомнаты AS втЗанятыеКомнаты
+		ON Расш1_НомерныеФонды.Ref = втЗанятыеКомнаты.Организация
+		LEFT JOIN втДомаКвартиры AS втДомаКвартиры
+		ON Расш1_НомерныеФонды.Ref = втДомаКвартиры.Организация
+		LEFT JOIN втСвободныеКомнаты AS втСвободныеКомнаты
+		ON Расш1_НомерныеФонды.Ref = втСвободныеКомнаты.Организация
+		LEFT JOIN втЧленыСемьи AS втЧленыСемьи
+		ON Расш1_НомерныеФонды.Ref = втЧленыСемьи.Организация
+		INNER JOIN втСвободныеКомнатыБезБлокировки AS втСвободныеКомнатыБезБлокировки
+		ON Расш1_НомерныеФонды.Ref = втСвободныеКомнатыБезБлокировки.Организация
+WHERE
+	NOT Расш1_НомерныеФонды.DeletionMark</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ИТР</dataPath>
+		<expression>Sum(ИТР)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДомов</dataPath>
+		<expression>Sum(КоличествоДомов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЖильцов</dataPath>
+		<expression>Sum(КоличествоЖильцов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоКвартир</dataPath>
+		<expression>Sum(КоличествоКвартир)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОдиноких</dataPath>
+		<expression>Sum(КоличествоОдиноких)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоСемейных</dataPath>
+		<expression>Sum(КоличествоСемейных)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОПР</dataPath>
+		<expression>Sum(ОПР)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СотрудниковБелорусь</dataPath>
+		<expression>Sum(СотрудниковБелорусь)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СотрудниковЕгипет</dataPath>
+		<expression>Sum(СотрудниковЕгипет)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СотрудниковКорея</dataPath>
+		<expression>Sum(СотрудниковКорея)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СотрудниковРоссия</dataPath>
+		<expression>Sum(СотрудниковРоссия)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЗанятыхКомнат</dataPath>
+		<expression>Sum(КоличествоЗанятыхКомнат)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоСвободныхКомнат</dataPath>
+		<expression>Sum(КоличествоСвободныхКомнат)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЧленыСемьи</dataPath>
+		<expression>Sum(ЧленыСемьи)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоСвободныхКомнатБезБлокировки</dataPath>
+		<expression>Sum(КоличествоСвободныхКомнатБезБлокировки)</expression>
+	</totalField>
+	<parameter>
+		<name>CheckOutDate</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата выборки</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Period</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЛокацияРазмещения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Локация размещения</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="xs:string">9483855e-cbf2-11ee-908e-4c1d96a3ef7f</value>
+		<value xsi:type="xs:string">9483855f-cbf2-11ee-908e-4c1d96a3ef7f</value>
+		<value xsi:type="xs:string">94838560-cbf2-11ee-908e-4c1d96a3ef7f</value>
+		<value xsi:type="xs:string">94838561-cbf2-11ee-908e-4c1d96a3ef7f</value>
+		<useRestriction>false</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Default</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Отчет по жилищному имуществу по локациям</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по жилищному имуществу по локациям</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПредставлениеОрганизации</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Компания</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав НФ</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоКвартир</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество квартир</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоДомов</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество домов</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоЖильцов</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество жильцов</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОдиноких</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во одиноких</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоСемейных</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во семейных</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Гражданство</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гражданство</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СотрудниковРоссия</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Россия</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СотрудниковБелорусь</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Белорусь</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СотрудниковЕгипет</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Египет</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СотрудниковКорея</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Корея и др.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категория</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОПР</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ИТР</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЧленыСемьи</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Члены семьи</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоЗанятыхКомнат</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свебодные комнаты</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоСвободныхКомнат</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоСвободныхКомнатБезБлокировки</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>С учетом блокировок</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>CheckOutDate</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ЛокацияРазмещения</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">9483855e-cbf2-11ee-908e-4c1d96a3ef7f</dcscor:value>
+					<dcscor:value xsi:type="xs:string">9483855f-cbf2-11ee-908e-4c1d96a3ef7f</dcscor:value>
+					<dcscor:value xsi:type="xs:string">94838560-cbf2-11ee-908e-4c1d96a3ef7f</dcscor:value>
+					<dcscor:value xsi:type="xs:string">94838561-cbf2-11ee-908e-4c1d96a3ef7f</dcscor:value>
+					<dcsset:userSettingID>0b4981e1-456a-4fed-ba06-16585436c64a</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>AppearanceTemplate</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Sea</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Title</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Отчет по жилищному имуществу по локациям</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по жилищному имуществу по локациям</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>DataParametersOutput</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

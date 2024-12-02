@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="24852a16-71b7-4451-a6f0-79c963dbab43" extendedConfigurationObject="44873c82-cec3-482e-b5e3-1e6c60ccf66f">
+  <producedTypes>
+    <objectType typeId="4711681c-f480-4389-b3b5-e7931bb98e23" valueTypeId="daf28ecf-5d0c-4583-8357-3ce90e3dc666"/>
+    <refType typeId="222b8fb8-0649-45bf-91d9-8ab542382b12" valueTypeId="90f73763-85ab-4b58-ba22-91294ebad293"/>
+    <selectionType typeId="df8d2c0b-a3cc-4bba-b29b-bbf342dd8233" valueTypeId="777c77aa-fcac-43e0-8921-56db484ad884"/>
+    <listType typeId="01640905-83fb-4a5c-b1fa-cde306a5809f" valueTypeId="7b55afb9-42ce-401f-bb53-794a245c30d9"/>
+    <managerType typeId="d1f31362-87cc-4fb8-bb80-3b5fac7a7457" valueTypeId="cc4956e4-5af6-41cf-bee0-7a3e33384323"/>
+  </producedTypes>
+  <name>Hotels</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+  <attributes uuid="cfc0abb5-b157-4e4f-bec0-6bf7baf45592" extendedConfigurationObject="9ac9a5f6-1925-4784-9eb4-cf8729f2baf9">
+    <name>SortCode</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ac01d0a1-4b90-49f1-9c63-b58a4b85ed21" extendedConfigurationObject="e1af6b5a-4519-4985-b006-812d53d7507e">
+    <name>Citizenship</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Countries</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

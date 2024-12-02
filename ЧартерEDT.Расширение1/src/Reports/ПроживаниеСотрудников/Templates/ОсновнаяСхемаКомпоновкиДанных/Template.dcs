@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗаезда</dataPath>
+			<field>ДатаЗаезда</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дата заезда</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыезда</dataPath>
+			<field>ДатаВыезда</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дата выезда</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дом</dataPath>
+			<field>Дом</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дом</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Room</dataPath>
+			<field>Room</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Hotel</dataPath>
+			<field>Hotel</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дней</dataPath>
+			<field>Дней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>RoomType</dataPath>
+			<field>RoomType</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрожитоЗаПериод</dataPath>
+			<field>ПрожитоЗаПериод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Прожито за период</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комната</dataPath>
+			<field>Комната</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Комната</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проживающий</dataPath>
+			<field>Проживающий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Проживающий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Расш1_НомерныеФонды.Ссылка КАК НомернойФонд
+ПОМЕСТИТЬ ВТ_НомерныеФонды
+ИЗ
+	Справочник.Расш1_НомерныеФонды КАК Расш1_НомерныеФонды
+ГДЕ
+	НЕ Расш1_НомерныеФонды.ПометкаУдаления
+	И Расш1_НомерныеФонды.ПоказыватьВСпрвкеБКАЭ
+
+ИНДЕКСИРОВАТЬ ПО
+	Расш1_НомерныеФонды.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	RoomInventoryBalanceAndTurnovers.Hotel КАК Hotel,
+	RoomInventoryBalanceAndTurnovers.Room КАК Room,
+	1 КАК Всего
+ПОМЕСТИТЬ RoomInventoryBalance
+ИЗ
+	РегистрНакопления.RoomInventory.ОстаткиИОбороты(
+			&amp;qPeriodFrom,
+			&amp;qPeriodTo,
+			,
+			,
+			ИСТИНА
+				И Hotel = &amp;qHotel) КАК RoomInventoryBalanceAndTurnovers
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ResDocuments.Регистратор КАК Accommodation,
+	ResDocuments.Room КАК Room,
+	1 КАК Занят,
+	ResDocuments.CheckInDate КАК ДатаЗаезда,
+	ResDocuments.CheckOutDate КАК ДатаВыезда,
+	РАЗНОСТЬДАТ(ResDocuments.CheckInDate, ResDocuments.CheckOutDate, ДЕНЬ) КАК Дней,
+	ResDocuments.Guest.FullName КАК GuestFullName
+ПОМЕСТИТЬ ResDocuments
+ИЗ
+	РегистрНакопления.RoomInventory КАК ResDocuments
+ГДЕ
+	ResDocuments.PeriodFrom &lt; &amp;qPeriodTo
+	И ResDocuments.PeriodTo &gt; &amp;qPeriodFrom
+	И ResDocuments.Hotel = &amp;qHotel
+	И ResDocuments.ВидДвижения = &amp;qExpense
+	И (ResDocuments.IsAccommodation
+			ИЛИ ResDocuments.IsReservation)
+
+СГРУППИРОВАТЬ ПО
+	ResDocuments.Регистратор,
+	ResDocuments.Room,
+	ResDocuments.CheckOutDate,
+	РАЗНОСТЬДАТ(ResDocuments.CheckInDate, ResDocuments.CheckOutDate, ДЕНЬ),
+	ResDocuments.CheckInDate,
+	ResDocuments.Guest.FullName
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	RoomInventoryBalance.Hotel КАК Hotel,
+	RoomInventoryBalance.Room КАК Room,
+	Documents.Accommodation КАК Accommodation,
+	ВЫБОР
+		КОГДА RoomInventoryBalance.Room.НеУчитыватьВСправке
+			ТОГДА 0
+		ИНАЧЕ RoomInventoryBalance.Всего
+	КОНЕЦ КАК Всего,
+	Documents.Занят КАК Занят,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Documents.ДатаЗаезда, ДАТАВРЕМЯ(1, 1, 1)) &lt; &amp;qPeriodFrom
+			ТОГДА &amp;qPeriodFrom
+		ИНАЧЕ ЕСТЬNULL(Documents.ДатаЗаезда, ДАТАВРЕМЯ(1, 1, 1))
+	КОНЕЦ КАК ДатаЗаезда,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Documents.ДатаВыезда, ДАТАВРЕМЯ(1, 1, 1)) &gt; &amp;qPeriodTo
+			ТОГДА &amp;qPeriodTo
+		ИНАЧЕ ЕСТЬNULL(Documents.ДатаВыезда, ДАТАВРЕМЯ(1, 1, 1))
+	КОНЕЦ КАК ДатаВыезда,
+	ЕСТЬNULL(Documents.Дней, 0) КАК Дней,
+	Documents.GuestFullName КАК GuestFullName
+ПОМЕСТИТЬ Accommodations
+ИЗ
+	RoomInventoryBalance КАК RoomInventoryBalance
+		ЛЕВОЕ СОЕДИНЕНИЕ ResDocuments КАК Documents
+		ПО RoomInventoryBalance.Room = Documents.Room
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.Расш1_СоставНомерногоФонда КАК Расш1_СоставНомерногоФонда
+		ПО RoomInventoryBalance.Room = Расш1_СоставНомерногоФонда.Номер
+			И (Расш1_СоставНомерногоФонда.НомернойФонд В
+					(ВЫБРАТЬ
+						ВТ_НомерныеФонды.НомернойФонд
+					ИЗ
+						ВТ_НомерныеФонды КАК ВТ_НомерныеФонды)
+				ИЛИ Расш1_СоставНомерногоФонда.НомернойФонд = ЗНАЧЕНИЕ(Справочник.Расш1_НомерныеФонды.ПустаяСсылка))
+
+СГРУППИРОВАТЬ ПО
+	RoomInventoryBalance.Hotel,
+	RoomInventoryBalance.Room,
+	Documents.Accommodation,
+	RoomInventoryBalance.Всего,
+	Documents.Занят,
+	Documents.ДатаЗаезда,
+	Documents.ДатаВыезда,
+	Documents.Дней,
+	ВЫБОР
+		КОГДА RoomInventoryBalance.Room.НеУчитыватьВСправке
+			ТОГДА 0
+		ИНАЧЕ RoomInventoryBalance.Всего
+	КОНЕЦ,
+	Documents.GuestFullName
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Расш1_СоставНомерногоФонда.НомернойФонд.Ссылка КАК Организация,
+	Accommodations.Room.Родитель КАК Дом,
+	Accommodations.Room КАК Комната,
+	Accommodations.ДатаЗаезда КАК ДатаЗаезда,
+	Accommodations.ДатаВыезда КАК ДатаВыезда,
+	Accommodations.Дней КАК Дней,
+	РАЗНОСТЬДАТ(Accommodations.ДатаЗаезда, Accommodations.ДатаВыезда, ДЕНЬ) КАК ПрожитоЗаПериод,
+	Accommodations.GuestFullName КАК Проживающий
+ИЗ
+	Accommodations КАК Accommodations
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Расш1_СоставНомерногоФонда КАК Расш1_СоставНомерногоФонда
+		ПО Accommodations.Room = Расш1_СоставНомерногоФонда.Номер
+ГДЕ
+	НЕ Accommodations.Дней = 0
+	И НЕ РАЗНОСТЬДАТ(Accommodations.ДатаЗаезда, Accommodations.ДатаВыезда, ДЕНЬ) = 1
+			И НЕ РАЗНОСТЬДАТ(Accommodations.ДатаЗаезда, Accommodations.ДатаВыезда, ДЕНЬ) = 0</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Проживающий</dataPath>
+		<expression>Количество(Проживающий)</expression>
+	</totalField>
+	<parameter>
+		<name>qExpense</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Q expense</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise">d4p1:AccumulationRecordType</v8:Type>
+		</valueType>
+		<value xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d3p1:AccumulationRecordType">Expense</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>qHotel</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Q hotel</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Hotels</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>qPeriodFrom</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Q period from</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Спериод.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>qPeriodTo</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Q period to</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СПериод.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>СПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>С период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Проживание сотрудников</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>de</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комната</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Проживающий</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Проживающий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проживающий</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДатаЗаезда</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДатаВыезда</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПрожитоЗаПериод</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Дни за период</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дни за период</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>c53d80d8-7104-4624-a917-20fc17b1a978</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Проживающий</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:userSettingID>e9dc31a3-559d-4885-ad65-9e8d98989850</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>qExpense</dcscor:parameter>
+					<dcscor:value xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d6p1:AccumulationRecordType">Receipt</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>qHotel</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>42c71429-ab8b-4bf0-974e-e474c9fc2769</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>4a88f3f9-3cb6-4da6-99e7-af01237a1f33</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>AppearanceTemplate</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>TotalsPlacement</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>GroupFieldsPlacement</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>GroupPlacement</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>AttributePlacement</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Together</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ResourcesAutoPosition</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Дом</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

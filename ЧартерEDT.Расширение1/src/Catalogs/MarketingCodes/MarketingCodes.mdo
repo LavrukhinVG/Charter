@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6b446b8-8187-4845-b8f3-100293c2f6e0" extendedConfigurationObject="1af54b00-89c2-4d2d-a85a-ec76fe5caa9e">
+  <producedTypes>
+    <objectType typeId="b0d63d41-421d-4047-a73e-8c25479271a8" valueTypeId="4435946a-6364-4b27-9c6b-5ba7e09c3d25"/>
+    <refType typeId="61be978a-8c89-47d2-87ae-8a2524c525b0" valueTypeId="a215d542-8198-4d1f-97e9-8bf974cc9136"/>
+    <selectionType typeId="54d740b0-fa75-4121-93fb-575ee34360c6" valueTypeId="d7f499d8-e287-4183-8633-de651c321adb"/>
+    <listType typeId="3a3463f1-53b4-423f-ac7f-5ca49ae5bce8" valueTypeId="25c15374-8adc-49f6-b95c-772d5a5872a0"/>
+    <managerType typeId="8a122bc8-1ee0-4fae-8147-bbbb9d3ab8d2" valueTypeId="195daf7a-3c12-4bf8-b275-9627ffc9026b"/>
+  </producedTypes>
+  <name>MarketingCodes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>5</codeLength>
+  <codeType>String</codeType>
+</mdclass:Catalog>

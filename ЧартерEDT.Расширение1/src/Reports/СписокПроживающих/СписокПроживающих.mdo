@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a99499f-af5a-46f4-92ee-79083ee11bb9">
+  <producedTypes>
+    <objectType typeId="eda4b30c-15d5-4c52-9d83-2a8dd736e9d6" valueTypeId="7d03f230-7f56-401d-a631-7977858db3aa"/>
+    <managerType typeId="a106f0a3-4a37-4d48-901f-8fc0e4fdd2f4" valueTypeId="8ab1a64a-ae63-483b-8556-49ae157c59f2"/>
+  </producedTypes>
+  <name>СписокПроживающих</name>
+  <synonym>
+    <key>en</key>
+    <value>Список проживающих</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Список проживающих</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СписокПроживающих.Form.ReportForm</defaultForm>
+  <mainDataCompositionSchema>Report.СписокПроживающих.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>en</key>
+    <value>Список проживающих</value>
+  </extendedPresentation>
+  <forms uuid="f67140db-b74d-4cb0-b5ef-2362a62b150e">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="917b5432-de32-44a4-bdde-9dc282467a7f">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

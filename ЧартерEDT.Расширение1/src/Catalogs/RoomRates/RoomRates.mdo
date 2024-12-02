@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c17fe38d-abc1-43c3-9314-7bcf9d946571" extendedConfigurationObject="6df52476-fc95-49ce-b095-93ec051f00f2">
+  <producedTypes>
+    <objectType typeId="83850fc2-6550-4a42-9b67-e29bcbaaa5c3" valueTypeId="40366ed0-443d-4cbb-8e6a-45e1854f90d3"/>
+    <refType typeId="72f3f607-c35b-4bab-bf2f-74161f80e116" valueTypeId="1df97231-e82e-47de-9df5-8accc6f95a62"/>
+    <selectionType typeId="e754afaf-aeee-45b5-ac63-b19db341de4f" valueTypeId="c01376f3-88e4-4c25-a453-7d3935c876a3"/>
+    <listType typeId="ed302c50-6859-47ac-8301-16902c9376a8" valueTypeId="10a5bbe2-b748-4452-9873-4c0289ed7f2b"/>
+    <managerType typeId="10288080-7de4-4d2b-9fdf-1da14e87a475" valueTypeId="873cff3d-0e55-449c-8dd8-ff1e74c6f52a"/>
+  </producedTypes>
+  <name>RoomRates</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+  <attributes uuid="273792ad-216d-4406-bded-ee5f648e9d37" extendedConfigurationObject="6a11cc26-4035-49d2-968d-d4223737b661">
+    <name>DefaultCheckInTime</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="cdf720a3-c496-4372-9255-fa61d63882c7" extendedConfigurationObject="8a189b9c-6240-4174-bf42-37e5ee9748dd">
+    <name>ReferenceHour</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

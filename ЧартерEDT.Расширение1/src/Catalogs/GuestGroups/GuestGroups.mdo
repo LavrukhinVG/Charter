@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ac92660-3136-423e-94b3-ecdd88b8c34e" extendedConfigurationObject="5a07b971-dd5a-400d-a877-112ee38d4f83">
+  <producedTypes>
+    <objectType typeId="0efc8b42-1310-4246-b221-f9fdc4c2a3a4" valueTypeId="0b5aa30b-9671-45ee-9dd2-8f0897e530ff"/>
+    <refType typeId="afc5ba96-08ec-4684-9def-5e6b23f48e26" valueTypeId="d0a31a4e-ea8a-47e9-93d6-1934c56668cf"/>
+    <selectionType typeId="8d11f772-292e-4ed2-a30e-cc0cc0802a2d" valueTypeId="fbf50753-eccf-4b40-b9fc-5fd665c4fe89"/>
+    <listType typeId="bb9a959e-9a42-453b-a8a2-402c47b376c1" valueTypeId="aaad22fe-2d44-4635-9a44-53c9eb409b50"/>
+    <managerType typeId="fc746194-a821-46db-99cd-5a007065a073" valueTypeId="b66526dd-5d36-4916-b9d3-3ecf2169eb6b"/>
+  </producedTypes>
+  <name>GuestGroups</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>12</codeLength>
+  <descriptionLength>50</descriptionLength>
+</mdclass:Catalog>

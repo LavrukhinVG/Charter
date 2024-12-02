@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="490ca06e-ac46-47cb-99b7-ec1875dfea61" extendedConfigurationObject="975ba9de-90b5-4c3a-ba48-2a06364651df">
+  <producedTypes>
+    <objectType typeId="ddf3967f-490b-4568-a5bf-2b7e4b793575" valueTypeId="eecb99ba-7488-449d-88ae-22801da8c9f0"/>
+    <refType typeId="8cd231d7-a904-45c1-8459-21f0c126dc84" valueTypeId="2fd578ae-f929-40cd-bd8f-aa0688c0d80d"/>
+    <selectionType typeId="7fc0bdf5-7d35-426c-95f4-6a039795e27f" valueTypeId="0dcd7583-8ea1-4f8e-b3d8-33d98f2dbb8e"/>
+    <listType typeId="fbecc00c-a7bf-4017-9a47-a439fb1d7a89" valueTypeId="77dc1af8-8f25-42bd-8ef4-03e6cc566226"/>
+    <managerType typeId="058b9b3e-0e77-4ec9-97de-4784030537af" valueTypeId="fedb78df-70dc-4563-a266-93e56806dcda"/>
+  </producedTypes>
+  <name>RoomQuotas</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

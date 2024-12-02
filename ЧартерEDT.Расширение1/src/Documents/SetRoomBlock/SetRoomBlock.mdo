@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b1284355-5072-4c3a-9f4d-64f1e3bd9168" extendedConfigurationObject="63ca735b-d9d4-4bdf-b3f6-2e3c2337ae3d">
+  <producedTypes>
+    <objectType typeId="6a4c3d24-677f-41c3-93b6-bc178e35d5d9" valueTypeId="53f5016e-8d23-430e-88fa-15f9a06d548f"/>
+    <refType typeId="d1221265-cac9-476c-a81d-fdd757386d18" valueTypeId="7877fbc6-7f09-4b53-a7ad-45b24f1e83a1"/>
+    <selectionType typeId="ea1a98a4-5456-42e0-89c8-20f651c602eb" valueTypeId="ee7b0164-042b-453a-a66c-0e5791c4309a"/>
+    <listType typeId="fbe96275-49e2-446f-95c8-16c453b28a04" valueTypeId="a24fb6da-fe4a-435a-9161-ce896c5771e6"/>
+    <managerType typeId="3d50e563-0ea3-4998-9002-3849fa0d865d" valueTypeId="52104133-ae74-40dd-8d8c-ca21f8d86776"/>
+  </producedTypes>
+  <name>SetRoomBlock</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="56dbfd82-55b4-4af4-a375-569f6902fdfa" extendedConfigurationObject="b12e4f01-9891-4ea9-bce8-5d32a286da3c">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c75f9581-3280-48e0-a421-43bfd312f8ca" extendedConfigurationObject="9c48aaea-45e4-4f2b-afb2-0dac8bbcb3ac">
+    <name>DateFrom</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3708e1d4-294d-4951-96c6-28e6f54931a2" extendedConfigurationObject="45df9195-0d46-4757-8201-7662924d0dd9">
+    <name>DateTo</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d6cdf912-e6df-4a2e-b56e-e884701baf09" extendedConfigurationObject="cdf996d5-e096-4b80-a546-d515c868cf80">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8815c7d1-7013-4f18-b506-8750a69e043d" extendedConfigurationObject="646c51b0-6c82-40bc-9dd7-6f415a57d72f">
+    <name>RoomBlockType</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.RoomBlockTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6cc9c262-78cc-4fad-b902-d41b43bebe0c" extendedConfigurationObject="f29badd3-fa4a-48da-a906-a670ea898dac">
+    <name>Remarks</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

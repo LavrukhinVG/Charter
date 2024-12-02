@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="516df81d-f084-4f04-80b3-c42e0fc6da42">
+  <producedTypes>
+    <objectType typeId="896ace8a-fceb-45c8-851c-05092f0ed0ee" valueTypeId="a17eec57-e6ee-4780-bd15-b3a4f65ef548"/>
+    <managerType typeId="1335238d-e6ed-4e3c-b9ba-4061053e3b48" valueTypeId="78ccda2a-2838-4edd-80c4-5e8059d9c389"/>
+  </producedTypes>
+  <name>ПроживаниеСотрудников</name>
+  <synonym>
+    <key>en</key>
+    <value>Проживание сотрудников</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ПроживаниеСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2854123a-20f5-40ad-a213-e24e9587aa6a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

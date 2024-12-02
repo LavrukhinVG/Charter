@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9fc89de2-6044-42c0-82fa-cd0df72ee462" extendedConfigurationObject="99adb5ce-cb85-4099-bb0b-13cde2eaa799">
+  <name>FrontOffice</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Catalog.Clients</content>
+  <content>Report.RoomInventory</content>
+  <content>Report.RoomsOccupationHistory</content>
+</mdclass:Subsystem>

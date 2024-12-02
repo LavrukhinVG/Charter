@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b5b8a98-b837-4d15-b71c-589d7c9a2b06">
+  <producedTypes>
+    <objectType typeId="97cb7349-c99f-4fcd-9470-79e810a48db6" valueTypeId="2c3f81a8-c341-4b5f-9074-36ed316c9caa"/>
+    <managerType typeId="7c05e460-2049-46ca-a87c-9ba03e20d973" valueTypeId="6bd738a2-7172-43bf-a308-34594ed02ccc"/>
+  </producedTypes>
+  <name>ПоискИЗаменаЗначений_Субподрядчики</name>
+  <synonym>
+    <key>en</key>
+    <value>Поиск и замена значений Субподрядчики</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и замена значений субподрядчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискИЗаменаЗначений_Субподрядчики.Form.Форма1</defaultForm>
+  <auxiliaryForm>DataProcessor.ПоискИЗаменаЗначений_Субподрядчики.Form.Форма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="92f02683-bb1a-482e-b36d-70d400a8cbab">
+    <name>НайденныеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8cc4ec40-abc2-4043-8c1f-2e062a71f52d">
+    <name>ВыполнятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91cf53a7-9bde-43f7-9a4f-b7971bac002c">
+    <name>ОтключатьКонтрольЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключать контроль записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b1575150-c089-4cf2-8c2e-4fc8fcf44ec2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b69cee53-1311-4848-b5ef-be74eaa6a8d8">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cbc5aa56-2123-4c3f-ab6f-b4500fd5c401">
+    <name>ФормаПрогрессора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма прогрессора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13f0a1d9-8be0-4d04-9f6c-cd89ce3d0d15">
+    <name>Форма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f10c938-2b6a-4311-9987-b1b12098ea2f">
+    <name>ФормаНастройки1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

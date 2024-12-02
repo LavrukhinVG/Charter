@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f71a6b74-91ed-4877-bcc3-ad7fb21642d9" extendedConfigurationObject="dab79cd9-2eb4-41fa-ab11-f45fb04cb988">
+  <producedTypes>
+    <objectType typeId="391404fd-6ea2-4699-a4b1-21d968f67ed6" valueTypeId="d1f7f7a3-a37c-42e8-ac70-75a781240549"/>
+    <refType typeId="56867dd2-af6b-4b31-98c9-9c36e9bd7228" valueTypeId="33700373-c4af-48ac-8562-c60a958f4e7d"/>
+    <selectionType typeId="de862700-aac8-4215-b06e-dc10a3a94bba" valueTypeId="49b7364c-afcd-4ae5-bbbb-94975861dd43"/>
+    <listType typeId="06fd443d-c22b-44af-92a8-6f305fd24590" valueTypeId="a1a43885-b55e-4950-9929-782bae2666ff"/>
+    <managerType typeId="b1f57786-98db-47ef-a5b4-b1fdeaeef918" valueTypeId="942906c7-a6fa-4568-8c5a-caa98423b6e0"/>
+  </producedTypes>
+  <name>RoomStatuses</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="a93894e6-a72f-498b-9e4a-caf3161d6ad0" extendedConfigurationObject="6e55497d-cdea-4a40-a590-c30aef66e117">
+    <name>SortCode</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="42edfd45-04a3-4d9e-a691-495053731e1a" extendedConfigurationObject="80285c02-595d-4391-96e3-5d60e0bc3803">
+    <name>RoomStatusIcon</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.RoomStatusesIcons</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d88f8a54-7891-4bbb-9624-ce1ea008183b">
+  <name>чартер_КомфортКласс</name>
+  <synonym>
+    <key>en</key>
+    <value>Комфорт класс</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Комфорт класс</value>
+  </synonym>
+</mdclass:CommonTemplate>

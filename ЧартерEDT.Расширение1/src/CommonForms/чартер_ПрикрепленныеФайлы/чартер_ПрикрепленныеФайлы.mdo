@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3012162b-4bec-4923-b230-ca4cdb2d34be">
+  <name>чартер_ПрикрепленныеФайлы</name>
+  <synonym>
+    <key>en</key>
+    <value>Прикрепленные файлы</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Прикрепленные файлы</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="729c1972-6a59-42c7-bad9-e917c272890d" extendedConfigurationObject="1d72454f-0afa-47bc-86bb-da6ba8ca36fd">
+  <producedTypes>
+    <objectType typeId="636b88e2-aaf2-40bd-a503-9db8d5ae8eb3" valueTypeId="34730567-3a59-4e75-aad0-5db5d3400212"/>
+    <refType typeId="637195e3-485d-408b-a29b-0e93d1cae26c" valueTypeId="932f92da-a82d-4582-ab64-cba2bfb0bb9c"/>
+    <selectionType typeId="f40806d1-86f2-4b90-8012-e6e9957c5098" valueTypeId="710e7822-e971-46c4-a1fb-9a0cdd94d5f9"/>
+    <listType typeId="3effdf0e-e849-4d77-99bf-44e6a4de720c" valueTypeId="f4640089-c70a-48a2-bf29-00102a32a9dc"/>
+    <managerType typeId="06d75eec-8464-42b5-bb30-920dce3da0ed" valueTypeId="2c4d5d5b-90d9-4acf-875c-671de87a41a1"/>
+  </producedTypes>
+  <name>AccommodationTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="6baa82e4-9f38-4d62-831a-75503fc6562f" extendedConfigurationObject="f9306f8e-59bc-4b2b-9a47-4ab49a336cc8">
+    <name>Type</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.AccomodationTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6e1a53b4-b23d-4b46-90ef-141f5d971d56" extendedConfigurationObject="c958a011-0e52-4504-befe-2e97f2845057">
+    <name>SortCode</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

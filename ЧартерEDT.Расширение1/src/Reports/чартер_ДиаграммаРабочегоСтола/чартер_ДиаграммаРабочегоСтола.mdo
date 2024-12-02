@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d42d07e8-bf4a-41b6-a52f-b1b4da195657">
+  <producedTypes>
+    <objectType typeId="1a3a7a40-109a-4f1b-8f3c-b2a5b95a6f42" valueTypeId="dde31a30-6c41-4538-a773-2cb0aaa5503e"/>
+    <managerType typeId="1afa0434-df3e-4e30-b313-c7da1827fc5f" valueTypeId="e21fecc5-d7c0-4ce5-8d30-839bff1b8894"/>
+  </producedTypes>
+  <name>чартер_ДиаграммаРабочегоСтола</name>
+  <synonym>
+    <key>en</key>
+    <value>ДиаграммаРабочегоСтола</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>ДиаграммаРабочегоСтола</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.чартер_ДиаграммаРабочегоСтола.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.чартер_ДиаграммаРабочегоСтола.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="963880d2-4b72-42cf-9514-4fe79ff4077e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1ea97831-c29e-494a-899f-07f7638aa09c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2da3191e-5375-4380-acbb-7278397cbdbd">
+    <name>ОтчетПоЗаполненностиБорта</name>
+    <synonym>
+      <key>en</key>
+      <value>Отчет по заполненности борта</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по заполненности борта</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.чартер_Рейсы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

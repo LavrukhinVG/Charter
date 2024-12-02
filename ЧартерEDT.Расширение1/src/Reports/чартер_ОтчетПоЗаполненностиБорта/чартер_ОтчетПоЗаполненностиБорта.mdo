@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf1db1a8-bf82-40d2-9e59-064d37b8af66">
+  <producedTypes>
+    <objectType typeId="ca35463a-aed2-4fc9-9d1c-0ef2131965c5" valueTypeId="03029859-21c6-4a1a-84e2-e09787215064"/>
+    <managerType typeId="10395cea-5d3e-4a99-9abd-5641af61a370" valueTypeId="e680f337-8a7b-4a17-9046-7f512e137afb"/>
+  </producedTypes>
+  <name>чартер_ОтчетПоЗаполненностиБорта</name>
+  <synonym>
+    <key>en</key>
+    <value>Анализ заполненности рейса</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ заполненности рейса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.чартер_ОтчетПоЗаполненностиБорта.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.чартер_ОтчетПоЗаполненностиБорта.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="8617c983-4b8f-4393-9b48-753446366124">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e15d9e30-8a8f-496f-b14e-bb6e228db345">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="8e1f12a8-62ab-4a14-931f-c1efc3cf576e">
+    <name>ОтчетПоЗаполненностиБорта</name>
+    <synonym>
+      <key>en</key>
+      <value>Отчет по заполненности борта</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по заполненности борта</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.чартер_Рейсы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

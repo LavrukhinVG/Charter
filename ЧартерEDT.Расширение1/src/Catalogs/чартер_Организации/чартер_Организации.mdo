@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9cd7d4b-842c-471a-a89f-c3198597d35a">
+  <producedTypes>
+    <objectType typeId="ffc01895-687f-4214-b62a-b74446df51f2" valueTypeId="bc263d26-ca8e-43f7-a9ca-52fca8b7a637"/>
+    <refType typeId="57ba811c-4861-4689-8e69-7bb54ddc3ba1" valueTypeId="19b0a695-ca25-405f-acff-a87d9bcf7e9f"/>
+    <selectionType typeId="fd6206fc-2548-410a-a3ac-67828bc4081e" valueTypeId="f665eabb-3bfa-4f4f-bd5d-a58afb6f6531"/>
+    <listType typeId="ff2d5cbd-b8eb-4d47-afad-44f6aa8a6b0d" valueTypeId="9e77fff7-c5e3-4b33-b258-89780560739c"/>
+    <managerType typeId="ee2e792e-3858-4181-8555-b23249fb1602" valueTypeId="31bcbf51-7a74-42ea-81cc-df1132dedf20"/>
+  </producedTypes>
+  <name>чартер_Организации</name>
+  <synonym>
+    <key>en</key>
+    <value>Организации (чартер)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Организации (чартер)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.чартер_Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.чартер_Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Организация (чартер)</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Организация (чартер)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Организации (чартер)</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Организации (чартер)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.чартер_Организации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.чартер_Организации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="09d60901-403d-4f42-858f-f4478696200a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4cd6f2d8-08f7-4554-bbac-867457aa7010">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

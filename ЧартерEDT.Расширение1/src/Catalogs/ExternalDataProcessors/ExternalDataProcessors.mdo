@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a52bcde-dd6b-40ca-8ca6-b10856052967" extendedConfigurationObject="c68ecf9a-edd4-44d4-965b-2e4f99c41fd2">
+  <producedTypes>
+    <objectType typeId="b94e86d8-db4f-46cf-b697-f5ecc95bf638" valueTypeId="a647c691-b253-4ccf-a13d-aa431d9f4482"/>
+    <refType typeId="2c2616b5-07a6-4593-b35b-660996b215da" valueTypeId="3707071c-8025-46d9-bd80-3ef4e6a16558"/>
+    <selectionType typeId="fa166cb2-72c0-405f-bf3c-d059d048a527" valueTypeId="de7bbc75-1a0e-46c7-b23a-0f58bef04248"/>
+    <listType typeId="2b8ef868-9d4d-4d65-aae1-a9754bbd8f70" valueTypeId="7e8f12cc-b242-49ca-855b-e37131f9a63c"/>
+    <managerType typeId="2ca52687-5ee4-412e-8a3e-163e226c5b09" valueTypeId="e3d99335-0687-4460-86ce-c157937449d2"/>
+  </producedTypes>
+  <name>ExternalDataProcessors</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

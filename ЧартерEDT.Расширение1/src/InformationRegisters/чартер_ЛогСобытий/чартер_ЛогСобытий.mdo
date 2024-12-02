@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2a038e-3dd7-485e-87cc-64ee1367d6dc">
+  <producedTypes>
+    <selectionType typeId="0141c833-f838-41ba-a195-fd39225e517c" valueTypeId="58afb02e-072a-4d14-bfa5-5705e570f7a4"/>
+    <listType typeId="49ef5253-cc8f-466d-a031-21bf3d070306" valueTypeId="6abbe65c-1bfb-4711-8382-308b42a9b5e8"/>
+    <managerType typeId="4d3c0c51-8070-4fde-9d83-1f4e5d477794" valueTypeId="3903c2c7-80cd-4e3e-945f-fbb6db6dc0b1"/>
+    <recordSetType typeId="43d8e4ea-a0cd-4f3d-8607-036909680119" valueTypeId="fbc070b4-0fa6-439a-bcfd-8c477d254820"/>
+    <recordKeyType typeId="cbdd72f6-c0a1-4136-9757-665703d3a51a" valueTypeId="e9c9a8f9-c236-4c54-ba65-60ded8bbe3ff"/>
+    <recordType typeId="79433ad3-884a-412a-8b49-89d13ca5b1c5" valueTypeId="02cff3e1-f565-4dc2-8828-f174a416e420"/>
+    <recordManagerType typeId="e9e8171f-fe50-4cde-af32-5f96d7697a92" valueTypeId="0fb36775-20f4-401d-b5d1-c7c78809313c"/>
+  </producedTypes>
+  <name>чартер_ЛогСобытий</name>
+  <synonym>
+    <key>en</key>
+    <value>Журнал логирования событий</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал логирования событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="91f365d9-6d77-4f8f-b9c1-93802587f679">
+    <name>ОписаниеСобытия</name>
+    <synonym>
+      <key>en</key>
+      <value>Описание события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="a9c0c05e-a03a-4735-9aee-cd9c9e0e9cc9">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="2ea3e383-2789-4423-a294-59ea1262f174">
+    <name>ТипСобытия</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип события</value>
+    </synonym>
+    <type>
+      <types>EnumRef.чартер_ТипСобытияЛога</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6bb5d22d-5574-4aff-a0af-9f5225c42ad2">
+    <name>ФункциональныйБлок</name>
+    <synonym>
+      <key>en</key>
+      <value>Функциональный блок</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональный блок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_ФункциональныеБлоки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

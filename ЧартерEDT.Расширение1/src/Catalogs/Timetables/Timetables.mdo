@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6bf02f1f-75f9-415d-b012-eb09703a9ccf" extendedConfigurationObject="32776ea8-7e3d-4304-8322-eff531279031">
+  <producedTypes>
+    <objectType typeId="fc68be76-a44c-468c-9bc3-2cc7ca6d910a" valueTypeId="30849283-5ab7-4775-ad78-814444cf0b7f"/>
+    <refType typeId="a6d31b55-bd3c-4dff-94b7-8ec6062b61e7" valueTypeId="b1d89c74-0875-4b8e-9276-47aca2ca3128"/>
+    <selectionType typeId="5d5d5211-9cbb-417a-a013-f096dae33e36" valueTypeId="d777d8ba-3edf-4175-bc59-0a8f0e1d01aa"/>
+    <listType typeId="8651f587-68fd-4953-a577-2314d6b1396b" valueTypeId="ca6a79fc-96f8-40aa-90cf-d5de19bb31ef"/>
+    <managerType typeId="b5e3aa62-60cc-400c-b1a2-167694b42417" valueTypeId="85938cab-a5b5-4d25-bb22-ff8e43a4c76e"/>
+  </producedTypes>
+  <name>Timetables</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

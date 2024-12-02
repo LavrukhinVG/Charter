@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57574c7d-6d7d-4688-8128-385b5e5b567f">
+  <producedTypes>
+    <refType typeId="0c7d4ca2-1d6f-495a-a5cf-996043118b0b" valueTypeId="19449435-addd-47e6-bc8d-b61360f20a88"/>
+    <listType typeId="9cdf054c-d684-4eb5-9a9a-1f8f7601fb27" valueTypeId="c73b8099-7cfb-4f28-82d6-1842bbcfcdaa"/>
+    <managerType typeId="7b63ef26-af5f-492f-90b4-c96e4c2ac0f0" valueTypeId="47559145-b0ef-4bca-a16b-e84a3e80ac93"/>
+  </producedTypes>
+  <name>чартер_ТипВСРассадка</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер тип ВСРассадка</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b6976c3-9573-4a41-94e6-8b86adf635a7">
+    <name>Boeing763_290PAX</name>
+    <synonym>
+      <key>en</key>
+      <value>Вариант компановки салона на 290 PAX</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Boeing763 Вариант компановки салона на 290 PAX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dc7a6dd-e9ff-4beb-8cd9-9625239331cd">
+    <name>Boeing763_235PAX</name>
+    <synonym>
+      <key>en</key>
+      <value>Вариант компановки салона на 235 PAX</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Boeing763 Вариант компановки салона на 235 PAX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eac724df-97d0-48d0-8dd9-a199df2ce99e">
+    <name>Boeing763_189PAX</name>
+    <synonym>
+      <key>en</key>
+      <value>Вариант компановки салона на 189 PAX</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Boeing763 Вариант компановки салона на 189 PAX</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

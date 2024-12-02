@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="de6db3e8-4411-4cd8-af9d-c6ebe379f201" extendedConfigurationObject="7b818758-be13-41e3-8b4d-958a26ded709">
+  <producedTypes>
+    <objectType typeId="f1eb07fe-8f6e-41be-8007-b94cd43533cd" valueTypeId="df2bfc64-0489-4037-9a18-523980b85f27"/>
+    <managerType typeId="15a0a779-6cf1-4684-8c2d-51ffdfd7a4b0" valueTypeId="a1574236-b180-4e34-aa4f-a1c5acd89c2d"/>
+  </producedTypes>
+  <name>RoomInventory</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Report>

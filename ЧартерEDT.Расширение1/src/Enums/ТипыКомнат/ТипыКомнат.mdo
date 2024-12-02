@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770828d4-ae5e-45a5-bbcf-af8365bce202">
+  <producedTypes>
+    <refType typeId="1f223baf-a16b-4aaf-a4a0-d900830ae2a3" valueTypeId="f1e8238e-292e-4ba6-8f8d-8fff1fbf4203"/>
+    <listType typeId="6fe31e45-95d9-4127-b2ec-ba6ee134a73e" valueTypeId="ff1f8dd6-8f11-4d4c-918e-dd90466675f5"/>
+    <managerType typeId="710183f0-9e88-4abe-86cc-b25bffcfcca7" valueTypeId="83e418d9-0ee3-4dc0-89dc-562fcaed0380"/>
+  </producedTypes>
+  <name>ТипыКомнат</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы комнат</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="58807bd3-c6a3-4652-8966-2631e6004dee">
+    <name>Руководство</name>
+    <synonym>
+      <key>en</key>
+      <value>Руководство</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Руководство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e266107-b9ed-443c-8547-043e4cee69b4">
+    <name>Мужская</name>
+    <synonym>
+      <key>en</key>
+      <value>Мужское общежитие</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Мужское общежитие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ccefb5a-e211-4a70-a797-faeda98a1036">
+    <name>Женская</name>
+    <synonym>
+      <key>en</key>
+      <value>Женское общежитие</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Женское общежитие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2dbd7550-cf37-4483-8769-bf0dea42d511">
+    <name>СмешенноеОбщежитие</name>
+    <synonym>
+      <key>en</key>
+      <value>Смешенное общежитие</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Смешенное общежитие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f52d67f-bb53-44bb-8166-8d4ddd9f14bf">
+    <name>СемейнаяСДетьми</name>
+    <synonym>
+      <key>en</key>
+      <value>Семейная с детьми</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Семейная с детьми</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

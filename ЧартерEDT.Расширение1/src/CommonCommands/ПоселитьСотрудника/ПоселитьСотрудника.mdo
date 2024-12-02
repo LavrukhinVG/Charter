@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ab3fe74-efb3-41d7-90b4-87ecbcc517fe">
+  <name>ПоселитьСотрудника</name>
+  <synonym>
+    <key>en</key>
+    <value>Поселить сотрудника</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поселить сотрудника</value>
+  </synonym>
+  <group>CommandGroup.Размещение</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

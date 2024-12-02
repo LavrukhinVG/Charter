@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0587a89c-48b2-466b-b348-a26c083c4cef">
+  <producedTypes>
+    <objectType typeId="fa094975-037b-4efd-80f0-041f5c8a2b48" valueTypeId="1e654d8c-d283-45de-8c63-4b8a8135877a"/>
+    <managerType typeId="23924e74-05d0-43ba-b5a8-50398b27ce84" valueTypeId="2858f1eb-c5e0-40ce-9b87-fb68d9583f4e"/>
+  </producedTypes>
+  <name>чартер_ЗагрузкаСотрудниковИзЗУП</name>
+  <synonym>
+    <key>en</key>
+    <value>Загрузка сотрудников из ЗУП</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка сотрудников из ЗУП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.чартер_ЗагрузкаСотрудниковИзЗУП.Form.Форма</defaultForm>
+  <tabularSections uuid="2c517639-bd5b-4aae-9f2a-0f7ef3850ea4">
+    <producedTypes>
+      <objectType typeId="2d2fcc0c-ecc5-4ec3-b905-1b18cf8d5485" valueTypeId="1730cad5-32be-479e-a610-9fea25a52fe7"/>
+      <rowType typeId="2ee858b1-2c94-45e2-8df2-6353fa6b570b" valueTypeId="e729596f-f0dd-4afa-9c6a-f77576802c5b"/>
+    </producedTypes>
+    <name>ДанныеДляОбработки</name>
+    <synonym>
+      <key>en</key>
+      <value>Данные для обработки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6f2c59c3-a246-4670-bdc7-5ba69986f550">
+      <name>Организация</name>
+      <synonym>
+        <key>en</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.чартер_Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6dc9ee84-8904-4e6d-8b87-3d51d1fc231d">
+      <name>ТабельныйНомер</name>
+      <synonym>
+        <key>en</key>
+        <value>Табельный номер</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Табельный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f3307b62-0f4e-4c66-a992-203be80f970c">
+      <name>Наименование</name>
+      <synonym>
+        <key>en</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b447a188-6028-4da7-99b1-6b4dbba5d45d">
+      <name>ФИОАнглийское</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИОАнглийское</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0c3ed380-376e-40bb-abea-a66b731415b7">
+      <name>Должность</name>
+      <synonym>
+        <key>en</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="faa56b75-ac46-4193-8337-9bbb5b3441e2">
+      <name>Подразделение</name>
+      <synonym>
+        <key>en</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="14d92d55-e7bc-4c3f-9476-6a76c38de4cd">
+      <name>СтатусОбработки</name>
+      <synonym>
+        <key>en</key>
+        <value>Статус обработки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b8f4093f-104a-40f4-a000-bae8bf5b1835">
+      <name>EMail</name>
+      <synonym>
+        <key>en</key>
+        <value>E mail</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="326cac72-3311-44ce-9f66-0fd55e5af5da">
+    <name>Форма</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

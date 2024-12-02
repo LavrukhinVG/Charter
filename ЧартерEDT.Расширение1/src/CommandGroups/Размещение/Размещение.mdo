@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e0abbe8-6e93-4a9a-938a-a4cdb080f459">
+  <name>Размещение</name>
+  <synonym>
+    <key>en</key>
+    <value>Размещение</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b62cd6ff-e3de-4c74-9c94-349b1c3e2bcc" extendedConfigurationObject="d3016e1f-0c5b-4bcb-a6f9-e83a7b47ea59">
+  <producedTypes>
+    <selectionType typeId="f6055602-3002-45da-9464-24c418bc742f" valueTypeId="c115a26b-ae28-4c04-bdd2-15d110c1f9e3"/>
+    <listType typeId="393aa9b9-fc80-4bf6-9ec3-b47dc795a71b" valueTypeId="1ad1ce2e-6e2a-4af6-a9ce-ae000d1ee470"/>
+    <managerType typeId="e6f6535f-a421-4672-b30f-b733ea10e0e9" valueTypeId="618b2f77-cd8d-47a0-bad2-8d73af71680d"/>
+    <recordSetType typeId="cd95d63c-af31-4cd5-9aeb-5a0a31db6984" valueTypeId="fb5d7c96-873c-41e4-9d15-663bb24a991a"/>
+    <recordKeyType typeId="aeb2197d-81cb-43c6-b031-3edd7df0a3a5" valueTypeId="912d917a-0b9a-49ce-8b9f-fa4160e5dd3e"/>
+    <recordType typeId="7197efd7-e2fc-4843-8aef-e89dae34ad71" valueTypeId="0e9bc557-9c15-4dc0-98f6-2c4d2ed6c180"/>
+  </producedTypes>
+  <name>RoomBlocks</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="6d0fca66-d269-45d0-bca4-90bef45195cb" extendedConfigurationObject="2a9ebc60-27f9-4699-b7db-a0da3459d364">
+    <name>RoomsBlocked</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="75aa1f76-c647-40d0-82d4-3a46ac8fd741" extendedConfigurationObject="2fbb3bcb-39ec-4e39-9f9a-5dcccab30606">
+    <name>BedsBlocked</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="81e58b55-7c8d-4897-8409-436ed347a535" extendedConfigurationObject="3348b6c4-9547-468d-b112-998b471ddaef">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="cb3062cb-8eb4-4d90-8c46-601674a94f2e" extendedConfigurationObject="092aa426-482f-408d-9f09-340605d9cd1c">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="55d8a16e-fa8b-4fd4-9f3a-1e674c44e518" extendedConfigurationObject="5a5de2c1-e305-445f-be43-8d475e8acc9d">
+    <name>RoomBlockType</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.RoomBlockTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

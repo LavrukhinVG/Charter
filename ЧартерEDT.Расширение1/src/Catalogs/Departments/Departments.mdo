@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f01df141-88c9-4dc9-93c6-f5646c95a6d7" extendedConfigurationObject="c2cdaeac-3cb2-4a29-bb63-c3e7cc56616e">
+  <producedTypes>
+    <objectType typeId="7be43217-e2c0-48c8-aa1e-eb12acfa4c1f" valueTypeId="2e427334-3ebf-4468-b96f-4e498b4713c7"/>
+    <refType typeId="167d6bcb-4cbf-4c50-b868-d02e6997f643" valueTypeId="ae865489-f186-41f6-b327-543671277c36"/>
+    <selectionType typeId="acf4cb0e-65b6-46d4-ac10-d4dcef06287a" valueTypeId="69433109-b12b-4ec1-aeb6-24f1238226f2"/>
+    <listType typeId="a213fde0-78e5-41d8-b9f8-6a570e734fc9" valueTypeId="6e2a9983-f684-450e-b905-a1819d402853"/>
+    <managerType typeId="7f19cea7-6575-46de-94a5-a76a7153e4f8" valueTypeId="ccab6b5a-ba76-49ec-bd9d-b98e7eef6b94"/>
+  </producedTypes>
+  <name>Departments</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

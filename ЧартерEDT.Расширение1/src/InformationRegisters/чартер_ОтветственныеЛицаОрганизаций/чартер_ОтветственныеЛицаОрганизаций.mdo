@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcea0066-3730-41a2-8ed2-1d8c3271dbe2">
+  <producedTypes>
+    <selectionType typeId="064aa694-5056-4f47-9c1b-a46e36da2630" valueTypeId="0c0ac199-c0fe-4a9c-a615-e99de271f294"/>
+    <listType typeId="ce0caa41-d3ad-4041-92e7-b96bfd0766f8" valueTypeId="9d901187-4f94-44b5-bdd1-d9b18ede38ea"/>
+    <managerType typeId="10538460-fd9e-4dbb-a23c-76fdf030c8f9" valueTypeId="5e4c7f2d-d48b-4f9a-bd50-f11615167859"/>
+    <recordSetType typeId="ad83c9f3-9777-4e8c-abc8-d6d477f74015" valueTypeId="4d567a8a-61b3-4987-94d5-35e7bb6e6dd9"/>
+    <recordKeyType typeId="6b773cd0-44c9-4d99-be8b-795c3e64c9cd" valueTypeId="f44032b5-62dd-4f29-b4c3-94ed66c1a886"/>
+    <recordType typeId="81c45f12-5da3-4db4-b9e7-00c28a0362c8" valueTypeId="0fb1c98a-6c67-41bb-b776-3ea8745a763c"/>
+    <recordManagerType typeId="37c84706-ced4-4f37-9b28-e03f3dd5c76b" valueTypeId="8b302bcc-442e-4aa7-89ec-109f8ddd7b21"/>
+  </producedTypes>
+  <name>чартер_ОтветственныеЛицаОрганизаций</name>
+  <synonym>
+    <key>en</key>
+    <value>Ответственные лица организаций</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.чартер_ОтветственныеЛицаОрганизаций.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.чартер_ОтветственныеЛицаОрганизаций.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>en</key>
+    <value>Ответственное лицо оганизации</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ответственное лицо оганизации</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Ответственные лица организаций</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ответственные лица организаций</value>
+  </listPresentation>
+  <attributes uuid="31de1b96-702c-461c-bf37-b804ec8965c7">
+    <name>EMail</name>
+    <synonym>
+      <key>en</key>
+      <value>E mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="f42198a2-d208-4b6a-b987-8fe5ef68d17c">
+    <name>ФИООтветственного</name>
+    <synonym>
+      <key>en</key>
+      <value>ФИООтветственного</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО Ответственного</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93a371da-6ee8-4b82-91e6-665b12c272d8">
+    <name>Организация</name>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="20262fa5-fec8-457c-ab68-1722ba97856c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4fdc00c8-33b5-43ee-b247-e37cce422396">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

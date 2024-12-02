@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7d99996-95f0-47f3-8fda-b780561d28b7">
+  <name>КартаНомерногоФонда</name>
+  <synonym>
+    <key>en</key>
+    <value>Карта номерного фонда</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Карта номерного фонда</value>
+  </synonym>
+  <group>CommandGroup.НомернойФонд</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

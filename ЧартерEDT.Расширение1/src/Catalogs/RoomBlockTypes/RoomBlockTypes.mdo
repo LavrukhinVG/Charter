@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9a384b6-bb82-4ef6-9d5d-34d73fbf1fef" extendedConfigurationObject="8fa6a66d-97b0-44ee-9ef4-76fda0948d0d">
+  <producedTypes>
+    <objectType typeId="597b91d0-bae5-42b5-969b-167043fcbefb" valueTypeId="c19f05dc-a3ce-421c-8f4a-7b25ab268237"/>
+    <refType typeId="31daa89f-6644-48c4-ac1a-959d0615231f" valueTypeId="3e7126f2-9160-4a3c-8dd3-1ed7b8263785"/>
+    <selectionType typeId="3e83481a-1cfb-46c6-903f-e4b89daa6a89" valueTypeId="f5f92161-db5c-4dfd-9215-7dbeda0cf41b"/>
+    <listType typeId="fbe1248f-94a5-411a-939f-b1cadd46fbad" valueTypeId="23441aea-24c9-4dd8-a086-61f006ea281c"/>
+    <managerType typeId="26344573-c7d9-405c-9f85-26b50ebd608a" valueTypeId="c86fd88a-b2d7-4aa5-9125-0dd9da64b255"/>
+  </producedTypes>
+  <name>RoomBlockTypes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="740cb428-bc68-4005-a9a2-3aaedecb7b26" extendedConfigurationObject="67846ed3-69b2-406a-b082-94e8c23d0916">
+    <name>SortCode</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

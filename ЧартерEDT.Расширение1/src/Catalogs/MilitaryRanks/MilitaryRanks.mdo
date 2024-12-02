@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b1bb5c28-992b-4b16-a30d-93b1e54aea48" extendedConfigurationObject="55c754cf-2c45-4a6e-a1e6-687d4e485d9c">
+  <producedTypes>
+    <objectType typeId="659debf5-ed48-4f43-b9d8-6c8670a2dc07" valueTypeId="6ab18088-b887-4f4a-a3c9-6b44d06bf472"/>
+    <refType typeId="ecb192ed-a00e-4106-a591-b8f2b10709a5" valueTypeId="18598ec3-a8ba-46b2-ae15-5d8ce92d5efb"/>
+    <selectionType typeId="b4ed9d75-fce1-42fb-a153-acb5a1a8b728" valueTypeId="1fb93385-dcb0-4995-91fb-82c84d7c6989"/>
+    <listType typeId="a28ad3f2-0a85-49ae-a80d-9d0e09403870" valueTypeId="c051112c-e704-4416-9b97-e1afe6fd59ea"/>
+    <managerType typeId="9ff373fa-6f76-40a9-a053-d36f69df06a8" valueTypeId="581fd662-3072-43e6-9a79-f1e7162c4a0e"/>
+  </producedTypes>
+  <name>MilitaryRanks</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

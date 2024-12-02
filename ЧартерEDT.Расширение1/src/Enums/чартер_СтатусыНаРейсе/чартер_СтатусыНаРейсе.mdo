@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bec2e32-5604-4081-a78f-1063a29a7df5">
+  <producedTypes>
+    <refType typeId="1e738698-6ef8-4b6d-94de-1cbdf82be7b6" valueTypeId="6068c91e-34f5-4032-8480-7b238e8e7a2d"/>
+    <listType typeId="801b6840-1943-4ba8-a04a-524b2c9ae958" valueTypeId="f821a222-b779-44d1-aa46-a5bbb7792e94"/>
+    <managerType typeId="126f18e9-c547-4b31-9fe9-9adda2789f33" valueTypeId="7fea6645-470d-46e5-9bb0-1f56fe7da207"/>
+  </producedTypes>
+  <name>чартер_СтатусыНаРейсе</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер статусы на рейсе</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы на рейсе</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92559780-fd46-4531-8f1d-eff6c05cc3bb">
+    <name>ЗаписанНаРейс</name>
+    <synonym>
+      <key>en</key>
+      <value>Записан на рейс</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Записан на рейс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e23248e-fdc0-480c-8774-71362c3c6916">
+    <name>ЗаписьУдалена</name>
+    <synonym>
+      <key>en</key>
+      <value>Запись удалена</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Запись удалена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57156f1d-5838-45e2-8e8e-750f80f62012">
+    <name>ЗаписьПеренесенаНаДругойРейс</name>
+    <synonym>
+      <key>en</key>
+      <value>Запись перенесена на другой рейс</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Запись перенесена на другой рейс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

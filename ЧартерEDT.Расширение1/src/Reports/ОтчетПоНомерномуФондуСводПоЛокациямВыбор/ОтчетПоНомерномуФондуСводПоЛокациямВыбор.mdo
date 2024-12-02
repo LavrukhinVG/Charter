@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a712c6-18b5-4685-85cc-3120496c7e51">
+  <producedTypes>
+    <objectType typeId="8220793e-3967-4586-9dfb-aa8824e1c2d5" valueTypeId="1469db5b-b5a8-48de-a65e-63cb5d8ecd0b"/>
+    <managerType typeId="6ac4b1e7-a71f-423f-bbf7-4a11d0aa8d64" valueTypeId="5733ea8f-f3d8-463e-a5e8-d71e976e2632"/>
+  </producedTypes>
+  <name>ОтчетПоНомерномуФондуСводПоЛокациямВыбор</name>
+  <synonym>
+    <key>en</key>
+    <value>Отчет жилищного имущества по локациям</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет жилищного имущества по локациям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоНомерномуФондуСводПоЛокациямВыбор.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="dba03d73-85ca-4af3-bb62-c78f16cb0127">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

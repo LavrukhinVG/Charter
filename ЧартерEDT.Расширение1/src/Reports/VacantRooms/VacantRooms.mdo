@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74a667ac-abd2-428a-aad0-1957ee9b975a" extendedConfigurationObject="ecc56ebb-4d3d-4b22-b1f2-4d57fb539ecb">
+  <producedTypes>
+    <objectType typeId="fe5e1cb0-7f0a-4571-afb4-923e911f309f" valueTypeId="2f490b30-f1e0-4bc7-b274-bc00445a8cf2"/>
+    <managerType typeId="50862af0-ec92-4a53-8fdd-0412f9bfe2d1" valueTypeId="0f32400a-c16a-4d65-8203-c0143be672d2"/>
+  </producedTypes>
+  <name>VacantRooms</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="9a4aa9ad-52b0-4303-8843-aa8090de8c5a" extendedConfigurationObject="0576712f-7d91-4939-98ce-b380df9c5569">
+    <name>ReportBuilder</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ReportBuilder</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ee57d9e1-b64a-41db-a539-01e137fb22b0" extendedConfigurationObject="5d367dc2-d3f1-47f8-955e-01216b833a35">
+    <name>Hotel</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Hotels</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="052ca8bd-543e-4127-9a2a-018f1b815ab1" extendedConfigurationObject="72f746ec-98ca-4824-b5a8-35eddfd8c694">
+    <name>PeriodTo</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1339fa61-8e52-410f-a13f-2729612919ff" extendedConfigurationObject="504903df-25c4-4b2e-8c36-7e2b8b72a925">
+    <name>Room</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Rooms</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="0a575773-aaa3-443a-ac51-73d6ed6f5bf2" extendedConfigurationObject="b472fdd1-5699-4525-8872-e0899c2cb3b0">
+    <name>RoomType</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.RoomTypes</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="73c13a1a-1ad0-473d-a29a-35adac9d7459" extendedConfigurationObject="ebc3403f-fc85-4fc2-a53f-f841c39d25c5">
+    <name>RoomStatuses</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueList</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="4b3650a6-ab5a-4914-a5db-c13c96b11fc1" extendedConfigurationObject="1b562c3a-22fb-4744-b609-8a8d29da4fb7">
+    <name>ShowReservedRooms</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Report>

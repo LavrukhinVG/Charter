@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc0ced68-442f-421a-99a2-af21461a7b7e">
+  <name>чартер_КарточкаСотрудникаИзЗУП</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер карточка сотрудника из ЗУП</value>
+  </synonym>
+</mdclass:CommonPicture>

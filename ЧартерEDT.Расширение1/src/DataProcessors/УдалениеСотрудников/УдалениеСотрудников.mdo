@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c5af20f-ed47-404c-bab1-5bd1de51300e">
+  <producedTypes>
+    <objectType typeId="2aec9d09-223e-406d-8ef3-5d001cdf1a36" valueTypeId="d569521b-c704-496b-bd58-94d456caae5a"/>
+    <managerType typeId="6995ed28-3a31-4b3e-a505-b98796770abe" valueTypeId="c3867d3f-0589-45de-814e-22f9e7a79fcc"/>
+  </producedTypes>
+  <name>УдалениеСотрудников</name>
+  <synonym>
+    <key>en</key>
+    <value>Удаление сотрудников</value>
+  </synonym>
+  <defaultForm>DataProcessor.УдалениеСотрудников.Form.Form</defaultForm>
+  <forms uuid="d274baf2-1b69-453c-ae04-38aa571fff4b">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

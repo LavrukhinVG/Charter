@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="431c3290-afbf-427b-8e89-e44af9289daf">
+  <producedTypes>
+    <objectType typeId="dc12bc4f-7c80-4223-b0f7-d5727227d94c" valueTypeId="0f876f90-6106-4d69-b066-9b5f94974fd1"/>
+    <refType typeId="b30325ad-110a-4daf-a686-e05af910df21" valueTypeId="b804ec34-c42a-4810-9c03-6f6d6201d809"/>
+    <selectionType typeId="38bd4e49-e2f7-46cc-927b-d532b1822e02" valueTypeId="1853e13e-2947-4727-835d-0b212ee8de75"/>
+    <listType typeId="a14d8b5d-674d-40ec-9c52-60c2acb76481" valueTypeId="96f0eb02-5318-44f2-bcc4-fd11c88d52cd"/>
+    <managerType typeId="0c1eaf02-5e7b-40b3-828c-b6626989d8a6" valueTypeId="03535b9f-fe71-454a-a072-fbc954e1cefd"/>
+  </producedTypes>
+  <name>чартер_НастройкаРассылок</name>
+  <synonym>
+    <key>en</key>
+    <value>Уведомление ответственных</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление ответственных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.чартер_НастройкаРассылок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.чартер_НастройкаРассылок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Рассылка</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рассылка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Список рассылок</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список рассылок</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.чартер_НастройкаРассылок.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.чартер_НастройкаРассылок.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="3f36f2be-ace0-40d9-a83f-afc89168948d">
+    <name>УчетнаяЗаписьДляОтрпавки</name>
+    <synonym>
+      <key>en</key>
+      <value>Учетная запись для отрпавки</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись для отрпавки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63a86145-1e67-4762-ba27-cde75a681c08">
+    <name>Комментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07456845-845c-432b-b8a1-491a422561ab">
+    <name>РассылкаАктивна</name>
+    <synonym>
+      <key>en</key>
+      <value>Рассылка активна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61bc055d-3d1e-4a58-8677-5b2566cba6e4">
+    <name>СобытияРассылок</name>
+    <synonym>
+      <key>en</key>
+      <value>Событие рассылки</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Событие рассылки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.чартер_СобытияРасссылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1719a97-d23d-4d35-a4b2-44136f2ea1b7">
+    <name>ТекстПисьма</name>
+    <synonym>
+      <key>en</key>
+      <value>Текст письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c93ba930-af13-49f1-9c2a-edfeeea7cb23">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>en</key>
+      <value>Тема</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тема письма рассылки отчетов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05825209-26eb-4f42-b727-6f30996808cb">
+    <name>Автор</name>
+    <synonym>
+      <key>en</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7332e1c-4ba1-4d0e-ab8f-c03639c4cf74">
+    <name>ТекстПисьмаВФорматеHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма в формате HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тело письма рассылки отчетов с возможностью форматирования текста и вставки картинок.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5a5f6b2-91e5-4c04-87a5-97bfca7f458b">
+    <name>КартинкиПисьмаВФорматеHTML</name>
+    <synonym>
+      <key>en</key>
+      <value>Картинки письма в формате HTML</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки письма в формате HTML</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура картинок, которые выводятся в теле письма.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e0dce71-1184-4998-bac4-99d2c9a9842f">
+    <name>ПисьмоВФорматеHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо в формате HTML</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если флажок установлен, то в теле письма можно использовать оформление текста и картинки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b979265e-4f45-46ac-a3f6-f554737f27a7">
+    <producedTypes>
+      <objectType typeId="ba733e90-df9c-4ea2-9690-7601840c536c" valueTypeId="ab084c93-f0d8-4c33-9998-4836c0fdbf03"/>
+      <rowType typeId="ec00367c-b1ce-42d8-9bda-ce44144892e2" valueTypeId="6bce7fa1-5db6-4499-9e56-f727526fe739"/>
+    </producedTypes>
+    <name>Адресаты</name>
+    <synonym>
+      <key>en</key>
+      <value>Адресаты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a005aeaf-70e5-4bd2-9709-4cb4a09f27be">
+      <name>Организация</name>
+      <synonym>
+        <key>en</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Расш1_НомерныеФонды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b95fbae-95a8-4937-b781-424d8e72b294">
+      <name>ФИО</name>
+      <synonym>
+        <key>en</key>
+        <value>ФИО</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46605289-276a-4417-9635-4e1b10b97be5">
+      <name>Должность</name>
+      <synonym>
+        <key>en</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8a4074ad-cf9c-494d-b64c-ccae05bc0a94">
+      <name>Отдел</name>
+      <synonym>
+        <key>en</key>
+        <value>Отдел</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="458b7c84-c925-4128-966b-5c7e76970b6c">
+      <name>ПочтовыйАдрес</name>
+      <synonym>
+        <key>en</key>
+        <value>Почтовый адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d48c396-9cca-4531-b4a9-d94675ae412d">
+      <name>Исключен</name>
+      <synonym>
+        <key>en</key>
+        <value>Исключен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="abcca193-82c5-419d-9532-cf656c778dae">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f174da4-cb3a-4d8f-ba55-bb6407629370">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

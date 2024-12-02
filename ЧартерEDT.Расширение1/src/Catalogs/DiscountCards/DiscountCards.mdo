@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6da28006-8c0b-427c-b149-527400937fa6" extendedConfigurationObject="27381df1-bd63-4746-9cec-6984b70c7891">
+  <producedTypes>
+    <objectType typeId="cebd7748-0ceb-4ad2-938d-0a58d13f7fff" valueTypeId="f55f2b91-781f-4999-8dfe-4f693b593791"/>
+    <refType typeId="254e40d8-d380-41b5-aa94-ee18dd1efc04" valueTypeId="19264452-a87d-45ee-af59-12ef4966bc02"/>
+    <selectionType typeId="5c381a8c-7fd8-4468-8e5a-aaa6db695231" valueTypeId="924e38f4-eb9f-49d5-9c80-054716d18e3c"/>
+    <listType typeId="b13b0629-8ee7-40da-a50a-40e89c101b52" valueTypeId="74497597-6536-47cd-a572-1dc9d94b1529"/>
+    <managerType typeId="f107cfb4-b7fa-4f3f-b063-943a1d91413d" valueTypeId="f1d214d5-694a-4dab-92a6-8ead8a8f482c"/>
+  </producedTypes>
+  <name>DiscountCards</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

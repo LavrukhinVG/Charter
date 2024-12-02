@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d675ca-d8e9-4285-bf37-07800c88023e">
+  <producedTypes>
+    <selectionType typeId="61ef584c-9ff7-4bad-9e1e-5e4810277f8c" valueTypeId="e10ef532-eff5-4962-9415-a2562c005608"/>
+    <listType typeId="e44f83b3-6d06-4d24-bb37-7a07e877d46b" valueTypeId="1ebbc794-2704-4d4f-94a8-6c6d704580c9"/>
+    <managerType typeId="336acc44-7f1d-4897-924c-9528aeab34c0" valueTypeId="95669266-4fc9-4060-9655-b9b8901022d6"/>
+    <recordSetType typeId="de600ded-1538-4cba-bcd7-55b44a964a34" valueTypeId="7f9daaf5-532f-4524-ab5f-a7114356f890"/>
+    <recordKeyType typeId="112bd39d-18a6-42ca-8bd9-704747c0fad8" valueTypeId="3286d90d-7962-438f-8ce4-11d2ca25dedd"/>
+    <recordType typeId="f5705252-ad74-4723-b5a9-b05cf48b89cc" valueTypeId="f1f1b948-41e2-4497-9190-99b9a2f6f0b5"/>
+    <recordManagerType typeId="72ad7c1b-4b3b-433f-bc54-edef60ff132d" valueTypeId="5dbff991-c5e3-46cc-97c3-9d97d5238388"/>
+  </producedTypes>
+  <name>Расш1_СтатусыПЦРТестов</name>
+  <synonym>
+    <key>en</key>
+    <value>Результаты ПЦР тестирования</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты ПЦР тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Расш1_СтатусыПЦРТестов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Расш1_СтатусыПЦРТестов.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="717c15f6-f940-4f14-9423-f6d69d25027e">
+    <name>Результат</name>
+    <synonym>
+      <key>en</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <format>
+      <key>en</key>
+      <value>БЛ=Отрицательный; БИ=Положительный</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>БЛ=Отрицательный; БИ=Положительный</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f66d4e53-67d0-48c5-b1e6-f8dd084c8b37">
+    <name>Гость</name>
+    <synonym>
+      <key>en</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Clients</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e0bebe66-3c7c-4c45-9d65-4eaaf0628be2">
+    <name>ВидТеста</name>
+    <synonym>
+      <key>en</key>
+      <value>Вид теста</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Расш1_ВидыТестов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0d83ce16-2a6c-4c9d-b571-3c800f94e2d9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="922754b3-87e3-43a6-bf06-e5ffc4fa0c1a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

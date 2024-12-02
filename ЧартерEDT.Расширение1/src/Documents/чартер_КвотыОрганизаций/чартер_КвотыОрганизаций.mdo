@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d6425fe-873f-4d49-b680-b215930672c7">
+  <producedTypes>
+    <objectType typeId="e5bc824b-b8ec-4c76-bc8a-4e9b16765e0c" valueTypeId="41e5565d-9e2f-422a-aba3-3e58df3028f2"/>
+    <refType typeId="261b8e5c-7ed3-47ec-a965-cbfbce24b4ba" valueTypeId="888de7fe-996e-47fe-9620-828249244058"/>
+    <selectionType typeId="c6e9d720-aa6b-4a2c-817c-c491d90611d7" valueTypeId="bc82a8ab-6814-476b-addf-718e30ed556b"/>
+    <listType typeId="5226c48f-7912-4090-82fb-bb8609fd736b" valueTypeId="f3c7e76d-5fa7-4f4e-8062-807cfd92f274"/>
+    <managerType typeId="1963f1ec-61cc-425d-aab2-75af541bc599" valueTypeId="64885181-3d38-40cb-b061-cd748a3fe7b4"/>
+  </producedTypes>
+  <name>чартер_КвотыОрганизаций</name>
+  <synonym>
+    <key>en</key>
+    <value>Квоты организаций</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Квоты организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.чартер_КвотыОрганизаций.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Квоты организации</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квоты организаций</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Квоты организаций</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Квоты организаций</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.чартер_КвотыОрганизаций.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.чартер_КвотыОрганизаций.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.чартер_КвотированиеОрганизацийНаРейс</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1c6d893e-382c-4e56-a951-588cb3bb7989">
+    <name>Организация</name>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c9b6cd4-ea92-4d6a-94c0-fa6b2694a933">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>en</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9ff16be5-38f4-4db7-bcbb-fd2296fad093">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26b4eb3c-7d18-4642-8f6c-36f1199b4167">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="8ed77cf1-0b1c-4097-ac06-99094de41883">
+    <producedTypes>
+      <objectType typeId="ee587510-a8ad-47af-8c07-bd25aa1d67e3" valueTypeId="b99d2bee-7bd1-445b-b976-7fbf531e47ef"/>
+      <rowType typeId="63e21683-ef60-400a-8a76-1379ea020af0" valueTypeId="fc809c90-c9aa-4510-90af-3e32337b1fea"/>
+    </producedTypes>
+    <name>Квоты</name>
+    <synonym>
+      <key>en</key>
+      <value>Квоты</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="fba42195-6ecd-44b5-8067-00ab36f5d732">
+      <name>ТипКомпановки</name>
+      <synonym>
+        <key>en</key>
+        <value>Тип компановки</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Тип компановки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.чартер_ТипВСРассадка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e221a1f9-e102-4f75-b385-17f8a192b6ce">
+      <name>Квота</name>
+      <synonym>
+        <key>en</key>
+        <value>Квота</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3081a4-aeaa-4cce-8e4f-e29d90d2590e">
+  <name>чартеры_ОбщиеПроцедурыИФункцииСервер</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартеры общие процедуры и функции сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

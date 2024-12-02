@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="78db7f9b-5e30-4396-a883-88fab8fd6157" extendedConfigurationObject="dd8e3a04-c2d0-4b55-9ead-dce5197c5b99">
+  <producedTypes>
+    <objectType typeId="f5d4e3fd-10ef-4a1d-934e-57f755732b45" valueTypeId="1014b6b9-74bf-44dd-adc5-eca03fbabfd2"/>
+    <refType typeId="26cda949-4c0b-4ffb-a001-14ec672b6124" valueTypeId="50ff0f11-5861-481c-8b9c-8973c86243b5"/>
+    <selectionType typeId="6d1c75c1-046b-4024-96a1-d92aca82e2e6" valueTypeId="26a27e14-3c5e-48d9-80bd-9bb8777f40f9"/>
+    <listType typeId="43968650-4ac6-49ed-994f-9fb6f7ffe7e1" valueTypeId="7a91270e-2e33-4f78-b2ee-17f18aeee20b"/>
+    <managerType typeId="bfeb2cb0-0b99-400f-8871-d43f179a24c1" valueTypeId="5f1664b7-1141-4397-b790-133895017949"/>
+  </producedTypes>
+  <name>Events</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

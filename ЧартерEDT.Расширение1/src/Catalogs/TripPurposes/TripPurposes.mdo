@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30aa17cc-b9c9-473f-9b84-5f808a66c1ae" extendedConfigurationObject="a9bd9c7a-fb1e-4aa5-99e1-43198451f1a3">
+  <producedTypes>
+    <objectType typeId="9ff30821-7c14-4c77-a2dc-9c36c3041741" valueTypeId="e2999ede-8c49-4915-a0e6-73539488afac"/>
+    <refType typeId="047b1048-6f5b-42a2-861f-65e6b9f2df55" valueTypeId="13280072-6bcf-478b-bae1-1d88c0c8c7b6"/>
+    <selectionType typeId="d53d86f5-d9be-48d0-960c-5730b463f807" valueTypeId="58580e11-9f4f-4c14-83d0-e903fe06b968"/>
+    <listType typeId="73afe2be-f241-47c6-b7aa-c60c585f9806" valueTypeId="0a5104de-55d3-4da8-946f-1dd07cbe5077"/>
+    <managerType typeId="720bb9cb-ef50-4825-870c-459663c70bf2" valueTypeId="4e4d53d2-26a6-4c4b-99c8-88c4e3b64838"/>
+  </producedTypes>
+  <name>TripPurposes</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

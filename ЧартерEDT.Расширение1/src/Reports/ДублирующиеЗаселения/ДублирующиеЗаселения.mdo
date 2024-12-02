@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef10a0b6-55f6-43c4-8e32-000930c6bd0f">
+  <producedTypes>
+    <objectType typeId="2cbbd39d-d220-400b-851c-ec2ed8d1a999" valueTypeId="b78900d9-577b-408b-890e-99589161042b"/>
+    <managerType typeId="d3937820-dbf9-4b76-8a70-774b46290269" valueTypeId="049bcc06-804d-4dc1-aaba-070bc252a90f"/>
+  </producedTypes>
+  <name>ДублирующиеЗаселения</name>
+  <synonym>
+    <key>en</key>
+    <value>Дублирующие заселения</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дублирующие заселения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДублирующиеЗаселения.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <forms uuid="4224a226-1d56-4980-929d-f00ede26a992">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c9e7a629-4831-4983-86a2-723b9b92f44f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="82adc678-68fb-4bcf-9c01-49cd77fea99d">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

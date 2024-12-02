@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e4688257-f78d-4464-9574-ac469c3b571c" extendedConfigurationObject="3546356f-6aa1-4bd0-b697-0dbf0aa11ae1">
+  <producedTypes>
+    <objectType typeId="0eb4206b-198c-4827-9df4-5372dceb682d" valueTypeId="34bd7ab8-41f5-4c6b-b718-7a6e440aaedb"/>
+    <refType typeId="7d204245-ff03-4303-acdc-061403b57f55" valueTypeId="4ecc85e7-fa1d-4876-b298-0663602d77ac"/>
+    <selectionType typeId="7f3e4b21-7b7f-4864-a384-0af72a69e9be" valueTypeId="74a39988-348b-4d0e-9e31-3a0a28591c5e"/>
+    <listType typeId="95c18378-38d9-4b24-af10-ef8ae1cdc5c5" valueTypeId="c35460a3-da28-455a-99d3-4defa982924f"/>
+    <managerType typeId="a21ad0e9-46cf-4dfd-a657-a2a6e5aad127" valueTypeId="b978ca74-7109-4515-a406-be9c5de10b72"/>
+  </producedTypes>
+  <name>VATRates</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

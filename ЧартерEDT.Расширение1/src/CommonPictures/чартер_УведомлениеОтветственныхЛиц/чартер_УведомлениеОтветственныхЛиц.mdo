@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b92c8076-5cfb-4fd0-851e-70d2cbb95ea5">
+  <name>чартер_УведомлениеОтветственныхЛиц</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер уведомление ответственных лиц</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

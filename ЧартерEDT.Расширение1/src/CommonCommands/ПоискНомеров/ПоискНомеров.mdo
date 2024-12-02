@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="689b1ab0-6d02-4a4c-b660-73137c0cde5d">
+  <name>ПоискНомеров</name>
+  <synonym>
+    <key>en</key>
+    <value>Поиск номеров</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск номеров</value>
+  </synonym>
+  <group>CommandGroup.НомернойФонд</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

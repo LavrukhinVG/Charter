@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30243fba-b8d4-4cb4-81b1-4783c91de382">
+  <producedTypes>
+    <selectionType typeId="f69f2844-e0a1-48fb-89fe-d38391090086" valueTypeId="cf7c6d9c-6c02-4839-9cbf-910ac4773c43"/>
+    <listType typeId="9676ccac-93b0-4b6b-95d4-d027f67ccde8" valueTypeId="4bd004c9-0ac0-4e2b-a608-10d003b23fdc"/>
+    <managerType typeId="c46d3dd9-9906-4de4-b476-ad584f19f688" valueTypeId="b1c7d34f-c783-44dc-8e3c-6206c8c51129"/>
+    <recordSetType typeId="2831f233-29f8-4a85-8ba2-760b53bb0836" valueTypeId="a89f989c-f0ac-4ef9-b773-5c4b09765509"/>
+    <recordKeyType typeId="c8e37459-3263-498b-9128-b6d4ea736e64" valueTypeId="658093b7-85e1-4876-b52f-9d6a3b973d1e"/>
+    <recordType typeId="f5ec3b2c-1815-4a0f-b579-9160a426ed58" valueTypeId="30a8b32c-bace-4034-b834-5b091fd528bb"/>
+    <recordManagerType typeId="64824db8-6e9f-4bb0-930e-f7198fd59b90" valueTypeId="2348f4a3-4704-4ee6-ba80-555ac3ba80c6"/>
+  </producedTypes>
+  <name>чартер_КвотированиеОрганизацийНаРейс</name>
+  <synonym>
+    <key>en</key>
+    <value>Квотирование организаций на рейс</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Квотирование организаций на рейс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b3768132-2f69-4669-af01-18c67252d783">
+    <name>Квота</name>
+    <synonym>
+      <key>en</key>
+      <value>Квота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="03ef4100-5592-4d3c-9ccf-9167f58e96d6">
+    <name>Организация</name>
+    <synonym>
+      <key>en</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.чартер_Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="979503a0-e0bf-4b25-9166-cdeafdfbd1ab">
+    <name>ТипКомпановки</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип компановки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.чартер_ТипВСРассадка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

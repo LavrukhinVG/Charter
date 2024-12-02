@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e920721b-e755-400b-b9d6-b4c08911e5ce" extendedConfigurationObject="69399d78-3d72-4f3a-b99a-c280e55fe7f0">
+  <producedTypes>
+    <objectType typeId="55d8ceac-f9d7-4f7c-9366-b9ea7a530992" valueTypeId="58f8334c-6e39-47c2-a4bf-1c50da2324a8"/>
+    <refType typeId="2885bc9e-f788-4dc1-9dff-af798434cc1c" valueTypeId="efd01bfb-f2af-4a0a-a182-c15df3da4030"/>
+    <selectionType typeId="2bae0c7f-5543-43d2-903b-da528f8d9472" valueTypeId="141125d6-f967-4693-9614-82094ae6e03c"/>
+    <listType typeId="0597b96e-33e3-4ec4-b280-3d01b05f628c" valueTypeId="8f924f75-bc3a-4d5a-975e-d3b9790e0f0b"/>
+    <managerType typeId="83cca9bd-5fbc-4745-b53a-d5cf46bceec1" valueTypeId="3fa5d15e-ddc6-47be-a6e7-332a4764307f"/>
+  </producedTypes>
+  <name>PaymentMethods</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>5</codeLength>
+  <codeType>String</codeType>
+</mdclass:Catalog>

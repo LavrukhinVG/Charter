@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85c1dfd6-0a07-4cac-ae47-b0b344e8cafe">
+  <name>Employees</name>
+  <synonym>
+    <key>en</key>
+    <value>Employees</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <rootURL>employees</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ab0bb10b-e294-4587-a380-086e4d6b1bc4">
+    <name>ЗагрузкаСотрудников</name>
+    <synonym>
+      <key>en</key>
+      <value>Загрузка сотрудников</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка сотрудников</value>
+    </synonym>
+    <template>/send/*</template>
+    <methods uuid="c890bd3e-87c8-4fb1-88c4-0136b9c4ce33">
+      <name>Send</name>
+      <synonym>
+        <key>en</key>
+        <value>Send</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗагрузкаСотрудниковSend</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

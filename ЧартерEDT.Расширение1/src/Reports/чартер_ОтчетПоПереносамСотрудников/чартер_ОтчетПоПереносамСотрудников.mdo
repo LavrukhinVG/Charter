@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db5f7330-ee53-4c0b-aa9d-eab633cdfe58">
+  <producedTypes>
+    <objectType typeId="4ecd1613-9a2c-41df-b0cd-63df32b401df" valueTypeId="ef9e6c4a-0133-481e-9ba9-16809a4e0ecf"/>
+    <managerType typeId="da319248-8d0d-4eee-beac-95ba2931e8a6" valueTypeId="081fc230-0475-4168-a11a-878c964f3889"/>
+  </producedTypes>
+  <name>чартер_ОтчетПоПереносамСотрудников</name>
+  <synonym>
+    <key>en</key>
+    <value>Отчет по переносам сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по переносам сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.чартер_ОтчетПоПереносамСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="515fbdb5-2ec3-4b31-8e9d-a299ed29a1cf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fc6e4168-2116-4922-ae18-81e6c696bd5c">
+    <name>ОтчетПоПереносам</name>
+    <synonym>
+      <key>en</key>
+      <value>Отчет по переносам</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по переносам</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.чартер_ПереносБорта</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d2c9002-e717-43d6-a2c4-f87d973b4f52">
+  <producedTypes>
+    <refType typeId="2bb50c82-f3d7-4e4d-ac9d-afbfbb57c9a4" valueTypeId="9e3f93ea-21dc-4e58-ad31-e81e4e313a5c"/>
+    <listType typeId="8a885625-150a-4426-bf2b-689dff4f4eaa" valueTypeId="207813d1-4ad6-4cb8-a305-cf1e5d8f9a20"/>
+    <managerType typeId="a387a3d3-bd21-4761-8b2a-56d9863af059" valueTypeId="b791cbad-dd18-48a7-baa7-fb72bf1d278c"/>
+  </producedTypes>
+  <name>чартер_ТипСобытияЛога</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер тип события лога</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7482ee33-36ed-4e3d-a11f-c73ac441eed7">
+    <name>Событие</name>
+    <synonym>
+      <key>en</key>
+      <value>Событие</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94d11bb7-d7ee-47b7-9bfb-83aaab8a26b6">
+    <name>Уведомление</name>
+    <synonym>
+      <key>en</key>
+      <value>Уведомление</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca5c8b97-c70a-44aa-9dbb-b6afb5e112d1">
+    <name>Ошибка</name>
+    <synonym>
+      <key>en</key>
+      <value>Ошибка</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

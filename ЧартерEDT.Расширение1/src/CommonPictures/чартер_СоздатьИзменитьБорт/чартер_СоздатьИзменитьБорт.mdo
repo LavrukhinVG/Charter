@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d98a349a-f48f-4a2c-bc48-a3ac1577fc13">
+  <name>чартер_СоздатьИзменитьБорт</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер создать изменить борт</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

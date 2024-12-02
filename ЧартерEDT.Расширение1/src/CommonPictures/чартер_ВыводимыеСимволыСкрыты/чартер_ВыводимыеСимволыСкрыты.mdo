@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b755ca53-d2ea-4400-a90c-3f6b56b8cb24">
+  <name>чартер_ВыводимыеСимволыСкрыты</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер выводимые символы скрыты</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

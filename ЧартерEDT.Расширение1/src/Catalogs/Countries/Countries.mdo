@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6dd2170e-89fd-4c87-bece-1409b1264c9e" extendedConfigurationObject="6890fa2b-d175-44cc-bc2a-d38c05f4f343">
+  <producedTypes>
+    <objectType typeId="77ca4572-a9c0-49b0-8523-5c38620ed5a8" valueTypeId="db5f1208-0a2c-4a71-8f6e-4f913debf333"/>
+    <refType typeId="6909655f-c9af-4228-af18-3b7b1634b6c0" valueTypeId="99319074-5b28-4924-bac9-8f5c8843269d"/>
+    <selectionType typeId="3707e228-f769-410f-89de-5f03ec63510a" valueTypeId="e2465280-2f70-4e32-aa42-af3b5e004397"/>
+    <listType typeId="66cfabe5-bb59-4975-811f-67e0af3709d9" valueTypeId="569d196e-f287-421c-b910-1c2892bac538"/>
+    <managerType typeId="fc28b446-6428-415e-ac2f-b8697d048eb1" valueTypeId="402db814-749b-4c8a-bbf4-185a495f0668"/>
+  </producedTypes>
+  <name>Countries</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <hierarchical>Checked</hierarchical>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <attributes uuid="912af1c0-0c96-428b-90e9-76325552dc14" extendedConfigurationObject="bc625c61-c24d-4849-a61f-9001fd9edb3c">
+    <name>ISOCode</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>3</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

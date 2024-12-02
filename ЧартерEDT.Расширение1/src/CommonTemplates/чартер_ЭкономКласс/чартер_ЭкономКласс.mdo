@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c38057-5f05-4372-8734-cbe852ec712f">
+  <name>чартер_ЭкономКласс</name>
+  <synonym>
+    <key>en</key>
+    <value>Эконом класс</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Эконом класс</value>
+  </synonym>
+</mdclass:CommonTemplate>

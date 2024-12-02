@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d051970e-1db5-457f-98aa-19a34d6be79a">
+  <producedTypes>
+    <refType typeId="498abb52-ffb7-4894-a1a0-eabfb170a1c0" valueTypeId="74c21c2f-61b6-47a5-90df-5a92abb7e487"/>
+    <listType typeId="fd328543-c9ec-4d90-a466-1d831a0c22da" valueTypeId="4b5cd6f5-2aec-411b-a600-22d27e8dd69a"/>
+    <managerType typeId="00589ddc-416b-4a19-9f02-f53fd614a284" valueTypeId="a95e31d8-871f-40cc-934d-8e24c3bcad4b"/>
+  </producedTypes>
+  <name>Расш1_КатегорииПроживающих</name>
+  <synonym>
+    <key>en</key>
+    <value>Категории проживающих</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Категории проживающих</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="84e48b85-3a80-4af0-999a-0cc55764807a">
+    <name>Руководство</name>
+    <synonym>
+      <key>en</key>
+      <value>Руководство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf1cae19-6606-4d50-8886-c04c15321c2c">
+    <name>ИТР</name>
+    <synonym>
+      <key>en</key>
+      <value>ИТР</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИТР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c5c3c85-013c-4b9f-83dd-b33c2f82be59">
+    <name>АУП</name>
+    <synonym>
+      <key>en</key>
+      <value>АУП</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>АУП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd7829e5-b251-4ea5-bfa0-d89bcf728e1c">
+    <name>ОПР</name>
+    <synonym>
+      <key>en</key>
+      <value>ОПР</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ОПР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5422b9f3-a993-4b13-8e01-f9ba683966a4">
+    <name>ЧленСемьи</name>
+    <synonym>
+      <key>en</key>
+      <value>Член семьи</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b36673f9-a2d6-406d-bc7e-23c7337328d5">
+    <name>Руководство_ПС</name>
+    <synonym>
+      <key>en</key>
+      <value>Руководство (П.С)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67814b91-7832-4996-bfee-0b2f7f1229b9">
+    <name>ИТР_ПС</name>
+    <synonym>
+      <key>en</key>
+      <value>ИТР (П.С.)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ИТР (П.С.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afb99e12-f5fc-41a9-bfca-265a02c6772b">
+    <name>АУП_ПС</name>
+    <synonym>
+      <key>en</key>
+      <value>АУП (П.С.)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>АУП (П.С.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed5cab3d-bd0c-4937-b859-f42f423250ad">
+    <name>ОПР_ПС</name>
+    <synonym>
+      <key>en</key>
+      <value>ОПР (П.С.)</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ОПР (П.С.)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

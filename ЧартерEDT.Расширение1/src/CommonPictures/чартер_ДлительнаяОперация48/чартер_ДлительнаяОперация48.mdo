@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0c1320e-8c4d-4f53-b65b-3db8d6c421d7">
+  <name>чартер_ДлительнаяОперация48</name>
+  <synonym>
+    <key>en</key>
+    <value>Чартер длительная операция48</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

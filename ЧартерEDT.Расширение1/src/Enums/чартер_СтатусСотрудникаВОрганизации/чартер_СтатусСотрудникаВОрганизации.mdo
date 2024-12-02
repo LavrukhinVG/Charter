@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de6fbe8-06a3-4e28-898a-787213fa508c">
+  <producedTypes>
+    <refType typeId="dbd483de-42c3-46ed-a0f5-676fb71205a2" valueTypeId="96180675-f90b-410e-b735-d8875cf85c8f"/>
+    <listType typeId="e566c702-1341-411a-855b-3e337e1d6910" valueTypeId="c20dbaad-2e77-4321-b549-2666e1919126"/>
+    <managerType typeId="26c86d57-693a-4098-b6a0-5d64f68c7edd" valueTypeId="691c8439-4188-4f9a-8c40-6314b4406e00"/>
+  </producedTypes>
+  <name>чартер_СтатусСотрудникаВОрганизации</name>
+  <synonym>
+    <key>en</key>
+    <value>Статус сотрудника в организации</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Статус сотрудника в организации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="65f2d48c-c2cb-43df-9478-29bd3e1c6213">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>en</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a2c9d8a-6550-4392-bf66-1e0b23f42206">
+    <name>Командировочный</name>
+    <synonym>
+      <key>en</key>
+      <value>Командировочный</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Командировочный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="194aa5b6-3746-44b6-a7fa-d9396daf49d5">
+    <name>Кандидат</name>
+    <synonym>
+      <key>en</key>
+      <value>Кандидат</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

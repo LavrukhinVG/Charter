@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f60e56b3-c360-410b-8503-129e0821a6b7">
+  <producedTypes>
+    <objectType typeId="a253c8ec-ac53-4f1c-b649-cc31c4a1fb88" valueTypeId="42fa3470-2dbb-433d-a3c4-015d4a15f257"/>
+    <managerType typeId="f1a7893a-1ccc-4432-8c5f-e474fb951f57" valueTypeId="4b1b3d77-a71e-4cf6-8aa2-22c1e74be9c6"/>
+  </producedTypes>
+  <name>АнализЖурналаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ журнала регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализЖурналаРегистрации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a4d28ffb-2d13-4051-b659-1aaf9d6f665c">
+    <name>СведенияОРегламентномЗадании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о регламентном задании</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fae347b8-49d8-4f9e-9082-d90c88d16a39">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f8e0bbd1-4077-415b-8eea-8437bedaf926">
+    <name>МакетОтчетаПоОшибкамВЖурналеРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета по ошибкам в журнале регистрации</value>
+    </synonym>
+  </templates>
+  <templates uuid="43aff552-704f-47a5-b3ee-7203b97f2991">
+    <name>ПродолжительностьРаботыРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность работы регламентных заданий</value>
+    </synonym>
+  </templates>
+  <templates uuid="91c2da45-323e-4b71-8765-8e5abb09f16b">
+    <name>РасшифровкаРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка регламентных заданий</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="feccdbab-e92f-418e-864d-16c879ca0d98" extendedConfigurationObject="0c33a9c6-4d56-4cad-afca-d036f91e5d75">
+  <producedTypes>
+    <objectType typeId="ae9eed5a-2016-4c64-a18a-63ec80a02eb7" valueTypeId="ed8294cb-12b1-495a-8fb4-2b7d7efe6a52"/>
+    <managerType typeId="e0a44ab3-b002-400b-8b6d-a1666b50fde0" valueTypeId="e1bcf331-1297-4900-9124-23d7531d8b63"/>
+  </producedTypes>
+  <name>RoomsOccupationHistory</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Report>
