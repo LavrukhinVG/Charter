@@ -55,7 +55,7 @@
     <name>Object</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИсправлениеСтатусаРаботник</types>
+      <types>DataProcessorObject.чартер_ИсправлениеСтатусаРаботник</types>
     </valueType>
     <view>
       <common>true</common>

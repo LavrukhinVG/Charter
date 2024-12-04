@@ -307,7 +307,8 @@
   <dataProcessors>DataProcessor.чартер_ЗагрузкаСотрудниковИзЗУП</dataProcessors>
   <dataProcessors>DataProcessor.чартер_ЗаполнениеСправочникаПосадочныхМест</dataProcessors>
   <dataProcessors>DataProcessor.чартер_ДиаграммаРассадкиНаРейс</dataProcessors>
-  <dataProcessors>DataProcessor.ИсправлениеСтатусаРаботник</dataProcessors>
+  <dataProcessors>DataProcessor.чартер_ИсправлениеСтатусаРаботник</dataProcessors>
+  <dataProcessors>DataProcessor.чартер_ПечатьПасадочныхТалонов</dataProcessors>
   <informationRegisters>InformationRegister.Расш1_СоставНомерногоФонда</informationRegisters>
   <informationRegisters>InformationRegister.RoomStatusChangeHistory</informationRegisters>
   <informationRegisters>InformationRegister.ForbiddenIdentificationDocuments</informationRegisters>

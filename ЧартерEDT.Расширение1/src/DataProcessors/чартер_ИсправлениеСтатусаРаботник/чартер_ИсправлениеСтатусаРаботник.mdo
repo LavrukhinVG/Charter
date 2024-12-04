@@ -4,12 +4,16 @@
     <objectType typeId="af050632-32ca-402c-80fa-09570988197f" valueTypeId="0d8e09be-0a4d-45a2-aca8-6a427d2c37fc"/>
     <managerType typeId="97d9ee92-4c55-4926-8972-94420b355506" valueTypeId="2d898368-809e-498a-8c2b-54d7494e71e3"/>
   </producedTypes>
-  <name>ИсправлениеСтатусаРаботник</name>
+  <name>чартер_ИсправлениеСтатусаРаботник</name>
   <synonym>
     <key>en</key>
     <value>Исправление статуса работник</value>
   </synonym>
-  <defaultForm>DataProcessor.ИсправлениеСтатусаРаботник.Form.Form</defaultForm>
+  <synonym>
+    <key>ru</key>
+    <value>Исправление статуса работник</value>
+  </synonym>
+  <defaultForm>DataProcessor.чартер_ИсправлениеСтатусаРаботник.Form.Form</defaultForm>
   <forms uuid="c4108add-dc5d-4a48-bf71-2e78bf2ecf64">
     <name>Form</name>
     <synonym>
