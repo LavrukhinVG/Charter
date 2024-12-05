@@ -1766,6 +1766,36 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
+      <name>СписокРаспечататьПосадочныеТалоны</name>
+      <id>126</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СписокРаспечататьПосадочныеТалоныРасширеннаяПодсказка</name>
+        <id>127</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.РаспечататьПосадочныеТалоны</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
       <name>ФормаОбщаяКомандачартер_АнализЗаполненностиРейса</name>
       <id>99</id>
       <title>
@@ -2390,6 +2420,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РаспечататьБилет</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>РаспечататьПосадочныеТалоны</name>
+    <title>
+      <key>en</key>
+      <value>Распечатать посадочные талоны</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Распечатать посадочные талоны</value>
+    </title>
+    <id>11</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РаспечататьПосадочныеТалоны</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
